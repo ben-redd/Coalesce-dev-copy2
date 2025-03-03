@@ -230,7 +230,10 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          STG_NATION: 3e4578bf-68b6-4d6f-bb60-57f5ce8233b3
+          STG_ORDERS_ALIAS: da521b9d-fe26-4b59-9024-21268a942475
+          STG_REGION_ALIAS: ced8f8b5-5c9c-4330-bb89-80d085a738cd
         customSQL:
           customSQL: ""
         dependencies:
@@ -243,9 +246,9 @@ operation:
         join:
           joinCondition: |-
             FROM {{ ref('WORK', 'STG_NATION') }} "STG_NATION"
-            INNER JOIN {{ ref('WORK', 'STG_REGION') }} "STG_REGION"
+            INNER JOIN {{ ref('WORK', 'STG_REGION') }} "STG_REGION_ALIAS"
             ON "STG_NATION"."N_COMMENT" = "STG_REGION"."R_COMMENT"
-            INNER JOIN {{ ref( 'WORK', 'STG_ORDERS' ) }} "STG_ORDERS"
+            INNER JOIN {{ ref( 'WORK', 'STG_ORDERS' ) }} "STG_ORDERS_ALIAS"
             ON "STG_ORDERS"."O_COMMENT" = "STG_NATION"."N_COMMENT"
         name: STG_NATION_REGION_ORDERS
         noLinkRefs: []
