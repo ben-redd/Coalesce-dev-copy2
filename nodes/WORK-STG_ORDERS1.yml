@@ -24,7 +24,7 @@ operation:
         description: ""
         name: Test
         runOrder: After
-        templateString: SELECT * FROM {{ ref_no_link('WORK','STG_ORDERS1') }} WHERE O_ORDERKEY > 0
+        templateString: SELECT * FROM {{ ref_no_link('WORK','STG_ORDERS1') }} WHERE O_ORDERKEY < 0
     columns:
       - appliedColumnTests: {}
         columnReference:
