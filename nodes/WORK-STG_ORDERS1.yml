@@ -4,6 +4,7 @@ name: STG_ORDERS1
 operation:
   config:
     insertStrategy: INSERT
+    postSQL: null
     preSQL: ""
     testsEnabled: true
     truncateBefore: true
@@ -18,7 +19,12 @@ operation:
   locationName: WORK
   materializationType: table
   metadata:
-    appliedNodeTests: []
+    appliedNodeTests:
+      - continueOnFailure: true
+        description: ""
+        name: Test
+        runOrder: After
+        templateString: SELECT * FROM {{ ref_no_link('WORK','STG_ORDERS1') }} WHERE O_ORDERKEY > 0
     columns:
       - appliedColumnTests: {}
         columnReference:

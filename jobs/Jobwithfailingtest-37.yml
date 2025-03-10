@@ -1,6 +1,6 @@
-excludeSelector: "{ location: WORK name: STG_CUSTOMER }"
+excludeSelector: ""
 fileVersion: 1
 id: "37"
 includeSelector: "{ subgraph: \"New Subgraph\" }"
-name: New Job
+name: Job with failing test
 type: Job
