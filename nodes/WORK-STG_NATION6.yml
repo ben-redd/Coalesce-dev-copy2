@@ -31,6 +31,8 @@ operation:
               - columnCounter: eaa3aa53-9690-4174-aa26-e8ba6cd3adf8
                 stepCounter: 3e4578bf-68b6-4d6f-bb60-57f5ce8233b3
             transform: ""
+          - columnReferences: []
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: f841e303-5021-4bc9-8dad-e351de6cf96b
@@ -44,6 +46,8 @@ operation:
           - columnReferences:
               - columnCounter: 176b88b6-a82d-4b30-993e-d34384e5315c
                 stepCounter: 3e4578bf-68b6-4d6f-bb60-57f5ce8233b3
+            transform: ""
+          - columnReferences: []
             transform: ""
       - appliedColumnTests: {}
         columnReference:
@@ -59,6 +63,8 @@ operation:
               - columnCounter: f6dd8403-530f-4254-b014-8acca7356214
                 stepCounter: 3e4578bf-68b6-4d6f-bb60-57f5ce8233b3
             transform: ""
+          - columnReferences: []
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 10d7d975-8aea-406a-9599-deb5cb89c311
@@ -73,6 +79,8 @@ operation:
               - columnCounter: c4a2c50e-a54e-4e1a-9a5a-f61d4d0d591e
                 stepCounter: 3e4578bf-68b6-4d6f-bb60-57f5ce8233b3
             transform: ""
+          - columnReferences: []
+            transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
@@ -85,6 +93,14 @@ operation:
         join:
           joinCondition: FROM {{ ref('WORK', 'STG_NATION') }} "STG_NATION"
         name: STG_NATION6
+        noLinkRefs: []
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies: []
+        join:
+          joinCondition: ""
+        name: NEW_SOURCE
         noLinkRefs: []
   name: STG_NATION6
   overrideSQL: false
