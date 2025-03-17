@@ -1,0 +1,118 @@
+fileVersion: 1
+id: 04da15ac-79dd-4c49-8466-f91811682d4e
+name: TRANSIENT_DEPLOY_NATION12
+operation:
+  config:
+    button: false
+    dropdown: option 1
+    insertStrategy: INSERT
+    myTabularConfig:
+      items:
+        - {}
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    textbox: ""
+    truncateBefore: false
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7deb9ec3-5e98-4909-98b5-960e058e28ae
+          stepCounter: 04da15ac-79dd-4c49-8466-f91811682d4e
+        config: {}
+        dataType: NUMBER
+        defaultValue: ""
+        description: ""
+        name: SYSTEM_COLUMN_1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: "1"
+        systemColumn1: true
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2f3a034f-7543-4ae3-b989-17a5abdc649d
+          stepCounter: 04da15ac-79dd-4c49-8466-f91811682d4e
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: N_NATIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 70f4fc32-4daa-4b0e-81bc-f13c7822dc9e
+                stepCounter: aaab16ca-2310-491d-98b2-6430c62bd55e
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 67ff3660-8b1a-4e11-9ba6-0e08aebe8023
+          stepCounter: 04da15ac-79dd-4c49-8466-f91811682d4e
+        config: {}
+        dataType: VARCHAR(25)
+        description: ""
+        name: N_NAME
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fb396b8b-fd39-4003-858a-30c4f74d7897
+                stepCounter: aaab16ca-2310-491d-98b2-6430c62bd55e
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5d73c88a-3bf0-4191-bd9b-cefa0d799e99
+          stepCounter: 04da15ac-79dd-4c49-8466-f91811682d4e
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: N_REGIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f3a5876b-53e6-40fd-9423-96c1ec9a2a15
+                stepCounter: aaab16ca-2310-491d-98b2-6430c62bd55e
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 37790921-ec8c-4650-a35a-1c4fb029fe4c
+          stepCounter: 04da15ac-79dd-4c49-8466-f91811682d4e
+        config: {}
+        dataType: VARCHAR(152)
+        description: ""
+        name: N_COMMENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 905d29c1-bce0-47eb-8a6c-12ba28ee6912
+                stepCounter: aaab16ca-2310-491d-98b2-6430c62bd55e
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: STG_NATION12
+        join:
+          joinCondition: FROM {{ ref('WORK', 'STG_NATION12') }} "STG_NATION12"
+        name: TRANSIENT_DEPLOY_NATION12
+        noLinkRefs: []
+  name: TRANSIENT_DEPLOY_NATION12
+  overrideSQL: false
+  schema: ""
+  sqlType: "123"
+  type: sql
+  version: 1
+type: Node

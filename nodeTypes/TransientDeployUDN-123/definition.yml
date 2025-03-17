@@ -9,7 +9,7 @@ metadata:
     short: 'MNN'                                     # Node prefix. A '_' delimiter will be added automatically. (string, required)
     plural: 'My Node Names'                          # plural name of common name (string, required)
     tagColor: '#FF5A5F'                              # Node color. CSS colors or hex colors (string, required)
-    deployStrategy: advanced              # Deployment strategy - see separate article for details.
+    deployStrategy: transient              # Deployment strategy - see separate article for details.
     isColumnResyncEnabled: true          # Allow non-source columns to be resynced.
 
     config:                                          # Array of the following config items
@@ -213,5 +213,5 @@ metadata:
     - type: textBox                                  # Generic textbox in mapping grid
       headerName: 'My Header'                        # GUI display name (string, required) 
       attributeName: 'myMappingColumn'               # Name of element used in templates (string, required)
-name: Advanced Deploy UDN
+name: Transient Deploy UDN
 type: NodeType
