@@ -249,41 +249,6 @@ operation:
               - columnCounter: 4e9cacb0-4846-4f24-8cc2-5637f6418834
                 stepCounter: d7cf24ea-789e-4766-9739-c33cc8aa5901
             transform: ""
-      - appliedColumnTests:
-          isDistinct: false
-        columnReference:
-          columnCounter: c2641812-2b59-4508-9b59-725750208524
-          stepCounter: 65e8f21d-7f8b-4766-9658-ef9492d88784
-        config: {}
-        dataType: VARCHAR(44)
-        description: ""
-        name: L_COMMENT
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: fdcd3cc3-dd36-4573-9c94-a460552359d9
-                stepCounter: d7cf24ea-789e-4766-9739-c33cc8aa5901
-            transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 2ed6f3bc-1b7e-40b4-8af7-42bbe523b2f6
-          stepCounter: 65e8f21d-7f8b-4766-9658-ef9492d88784
-        config: {}
-        dataType: NUMBER
-        defaultValue: ""
-        description: ""
-        keyColumnType: None
-        name: test_col
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: "0"
-                stepCounter: "0"
-            transform: ""
-        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs:
       - isDistinct

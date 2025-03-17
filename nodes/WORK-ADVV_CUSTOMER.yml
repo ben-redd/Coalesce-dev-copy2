@@ -98,38 +98,6 @@ operation:
               - columnCounter: e303e48e-2b0d-4091-b84b-44c14f4f621b
                 stepCounter: b52204cd-fe8b-46bf-838b-db03076772fa
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: a33410f1-c732-4a89-8da5-1313abcc7433
-          stepCounter: 5830f403-ff84-427f-90b2-dcff1fe8d240
-        config: {}
-        dataType: VARCHAR(10)
-        description: ""
-        name: C_MKTSEGMENT
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 638da65a-83a5-4e94-9a3a-5700e59d9dde
-                stepCounter: b52204cd-fe8b-46bf-838b-db03076772fa
-            transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 29fe0c9d-2712-4969-89b6-66b7c101c94a
-          stepCounter: 5830f403-ff84-427f-90b2-dcff1fe8d240
-        config: {}
-        dataType: NUMBER
-        defaultValue: ""
-        description: ""
-        name: test_col
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: "0"
-                stepCounter: "0"
-            transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:

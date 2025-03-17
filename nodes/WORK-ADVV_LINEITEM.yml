@@ -231,40 +231,6 @@ operation:
               - columnCounter: e4192ebb-0c1a-4130-9300-7bdf95312ea5
                 stepCounter: 65e8f21d-7f8b-4766-9658-ef9492d88784
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 89e0ac37-32d4-4c1f-b97c-108a606eb8dd
-          stepCounter: f52f7c16-3ff7-4fb3-9416-e1d88b86f610
-        config: {}
-        dataType: VARCHAR(44)
-        description: ""
-        name: L_COMMENT
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: c2641812-2b59-4508-9b59-725750208524
-                stepCounter: 65e8f21d-7f8b-4766-9658-ef9492d88784
-            transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 61506d5d-797d-44cb-9080-20f70e2d59a6
-          stepCounter: f52f7c16-3ff7-4fb3-9416-e1d88b86f610
-        config: {}
-        dataType: NUMBER
-        defaultValue: ""
-        description: ""
-        keyColumnType: None
-        name: test_col
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: "0"
-                stepCounter: "0"
-            transform: ""
-        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
