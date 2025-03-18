@@ -104,7 +104,7 @@ operation:
           stepCounter: 12a06310-4612-4404-8d17-11aeabf153ad
         config: {}
         dataType: VARCHAR(101)
-        description: ""
+        description: TEST
         name: S_COMMENT
         nullable: true
         sourceColumnReferences:
