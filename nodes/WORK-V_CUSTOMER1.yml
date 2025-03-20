@@ -98,20 +98,6 @@ operation:
               - columnCounter: d69a4d79-0df1-4a9c-a6f8-cca7f0e5d50e
                 stepCounter: 5830f403-ff84-427f-90b2-dcff1fe8d240
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: a38d55f7-60f9-4a3a-934e-e4248bb33bea
-          stepCounter: 4a242a2c-0233-4a8d-bbac-51f594304951
-        config: {}
-        dataType: VARCHAR(10)
-        description: ""
-        name: C_MKTSEGMENT
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: a33410f1-c732-4a89-8da5-1313abcc7433
-                stepCounter: 5830f403-ff84-427f-90b2-dcff1fe8d240
-            transform: ""
       - acceptedValues:
           strictMatch: true
           values: []
