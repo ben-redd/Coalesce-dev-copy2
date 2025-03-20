@@ -36,7 +36,7 @@ operation:
           columnCounter: c5925a0c-4d17-49e2-8842-7574b6c655d0
           stepCounter: 6ecfe5d3-162c-4d7d-9198-dbca984eedd8
         config: {}
-        dataType: VARCHAR(24)
+        dataType: VARCHAR(25)
         description: ""
         name: N_NAME
         nullable: false
