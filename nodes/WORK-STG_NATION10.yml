@@ -72,7 +72,7 @@ operation:
           - columnReferences:
               - columnCounter: 417efcf4-922a-452c-8a3a-8780233598ab
                 stepCounter: 0bee737e-1c18-4208-be71-6791b2cb73b1
-            transform: ""
+            transform: UPPER("STG_NATION4"."N_COMMENT")
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
