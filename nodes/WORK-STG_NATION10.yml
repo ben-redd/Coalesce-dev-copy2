@@ -39,7 +39,7 @@ operation:
         dataType: VARCHAR(25)
         description: ""
         name: N_NAME
-        nullable: false
+        nullable: true
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 482a52e8-635b-4b38-85eb-0655bfbbe3d2
