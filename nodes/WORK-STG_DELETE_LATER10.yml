@@ -1,0 +1,95 @@
+fileVersion: 1
+id: 572be778-bf21-4ab8-97b9-30f40d9df2be
+name: STG_DELETE_LATER10
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 073d2850-4898-4257-bb2a-af16c80f9ebd
+          stepCounter: 572be778-bf21-4ab8-97b9-30f40d9df2be
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: N_NATIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 38c97041-e8ec-4cb1-9eb2-0e96add60f13
+                stepCounter: a7e0725b-9049-4b76-ba6b-cacd5998dc5d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6debb949-5b4b-4316-a410-888419f88b63
+          stepCounter: 572be778-bf21-4ab8-97b9-30f40d9df2be
+        config: {}
+        dataType: VARCHAR(25)
+        description: ""
+        name: N_NAME
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d7cc25f3-6d42-4465-ac8e-648860d3ea50
+                stepCounter: a7e0725b-9049-4b76-ba6b-cacd5998dc5d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fa82473e-c1dc-420c-8dcb-4a32e2a2f845
+          stepCounter: 572be778-bf21-4ab8-97b9-30f40d9df2be
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: N_REGIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: bbed5244-4890-40d5-9bd4-9dd2fbe71967
+                stepCounter: a7e0725b-9049-4b76-ba6b-cacd5998dc5d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0a003fdd-44dc-4965-a13b-584b8c098de8
+          stepCounter: 572be778-bf21-4ab8-97b9-30f40d9df2be
+        config: {}
+        dataType: VARCHAR(152)
+        description: ""
+        name: N_COMMENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5895f324-b43b-4510-9088-484b068dd83c
+                stepCounter: a7e0725b-9049-4b76-ba6b-cacd5998dc5d
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: STG_DELETE_LATER
+        join:
+          joinCondition: FROM {{ ref('WORK', 'STG_DELETE_LATER') }} "STG_DELETE_LATER"
+        name: STG_DELETE_LATER10
+        noLinkRefs: []
+  name: STG_DELETE_LATER10
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node
