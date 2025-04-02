@@ -1,6 +1,0 @@
-excludeSelector: ""
-fileVersion: 1
-id: "51"
-includeSelector: "+{ name: STG_NATION } OR { name: V_CUSTOMER }"
-name: New Job
-type: Job
