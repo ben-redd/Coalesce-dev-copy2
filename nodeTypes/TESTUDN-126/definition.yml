@@ -19,18 +19,30 @@ metadata:
         attributeName: 'myTabularConfig'
         columns:
         - type: toggleButton
+          -- default: true
           displayName: 'My Button'
           attributeName: 'tabToggleButton'
           enableIf: 'true'
         - type: dropdownSelector
           displayName: 'My Dropdown Selector'
           attributeName: 'tabDropdown'
-          default: 'option 1'
+          default: 'option 2'
           options:
           - 'option 1'
           - 'option 2'
           isRequired: false
           enableIf: 'true'
+        - type: textBox
+          displayName: 'My textbox'
+          attributeName: 'textboxInput'
+          default: 'test'
+          isRequired: false
+          enableIf: 'true'
+        -- - type: columnSelector
+        --   displayName: My Column Selector
+        --   attributeName: myColumnSelector
+        --   isRequired: true
+        --   enableIf: 'true'
         isRequired: false
         enableIf: 'true'
 name: TEST UDN
