@@ -1,5 +1,11 @@
 fileVersion: 1
 id: "17"
-mappingDefinitions: {}
+mappingDefinitions:
+  SAMPLE:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: TPCH_SF001
+  WORK:
+    database: BEN_EDW
+    schema: 7.1_Env
 name: Main env
 type: Environment
