@@ -20,7 +20,9 @@ operation:
   metadata:
     appliedNodeTests: []
     columns:
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 3deca81e-f100-45b4-bb80-bcc03fc9c711
           stepCounter: da521b9d-fe26-4b59-9024-21268a942475
@@ -34,7 +36,9 @@ operation:
               - columnCounter: bcde7e74-eb37-4681-a788-b90bef2d76b1
                 stepCounter: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: f3c52e26-9f4e-4182-b29f-bbb88270ab21
           stepCounter: da521b9d-fe26-4b59-9024-21268a942475
@@ -48,7 +52,9 @@ operation:
               - columnCounter: 358b8f5e-c384-45d8-85b9-633134e62b88
                 stepCounter: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: true
         columnReference:
           columnCounter: 1e5f84e1-7561-47ed-a2e4-c3520670a227
           stepCounter: da521b9d-fe26-4b59-9024-21268a942475
@@ -62,7 +68,9 @@ operation:
               - columnCounter: 46e08e1d-678d-4210-b4cc-f5f4eafe158d
                 stepCounter: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 3be1287f-cf54-4028-a66a-cd8ffb5b1b34
           stepCounter: da521b9d-fe26-4b59-9024-21268a942475
@@ -76,7 +84,9 @@ operation:
               - columnCounter: 10beb97b-f4df-42e0-8c7b-001353b8326b
                 stepCounter: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 69733883-a347-4553-accb-ef328ee403e0
           stepCounter: da521b9d-fe26-4b59-9024-21268a942475
@@ -90,7 +100,9 @@ operation:
               - columnCounter: 123fbacc-a142-46f6-901c-81c8916025a3
                 stepCounter: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: e4881b87-80d1-41a4-af52-d6cf4762082a
           stepCounter: da521b9d-fe26-4b59-9024-21268a942475
@@ -104,7 +116,9 @@ operation:
               - columnCounter: 53238ee9-b46a-44c1-b527-0a85117daa4f
                 stepCounter: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 5edeb811-0043-411e-ae9a-4729439e973e
           stepCounter: da521b9d-fe26-4b59-9024-21268a942475
@@ -118,7 +132,9 @@ operation:
               - columnCounter: d549a131-8af3-4ce2-a77f-69d7209fef5b
                 stepCounter: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 66b936e4-419c-49f0-8782-714ba65a522b
           stepCounter: da521b9d-fe26-4b59-9024-21268a942475
@@ -132,7 +148,9 @@ operation:
               - columnCounter: 1c2d0fa7-c288-4441-b48f-b15d884d9c89
                 stepCounter: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 80524de9-5369-4682-9cc1-3a9a7f7b06f4
           stepCounter: da521b9d-fe26-4b59-9024-21268a942475
@@ -147,7 +165,9 @@ operation:
                 stepCounter: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
             transform: UPPER("ORDERS"."O_COMMENT")
     cteString: ""
-    enabledColumnTestIDs: []
+    enabledColumnTestIDs:
+      - isDistinct
+      - hasNull
     sourceMapping:
       - aliases:
           ORDERS: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
