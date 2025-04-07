@@ -59,20 +59,6 @@ operation:
               - columnCounter: 970fe338-973c-4608-9dec-1a59c1b52aa1
                 stepCounter: 0bee737e-1c18-4208-be71-6791b2cb73b1
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 2e87bcf2-e0ba-41a0-838f-e0147feecf3f
-          stepCounter: 6ecfe5d3-162c-4d7d-9198-dbca984eedd8
-        config: {}
-        dataType: VARCHAR(152)
-        description: ""
-        name: N_COMMENT
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 417efcf4-922a-452c-8a3a-8780233598ab
-                stepCounter: 0bee737e-1c18-4208-be71-6791b2cb73b1
-            transform: UPPER("STG_NATION4"."N_COMMENT")
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
