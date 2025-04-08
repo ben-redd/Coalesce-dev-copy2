@@ -124,7 +124,7 @@ operation:
           stepCounter: 6c6a2d64-2ec3-4971-b209-d1d3ac432813
         config: {}
         dataType: VARCHAR(15)
-        description: ""
+        description: test
         name: O_CLERK
         nullable: false
         sourceColumnReferences:

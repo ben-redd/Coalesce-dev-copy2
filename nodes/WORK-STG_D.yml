@@ -79,7 +79,7 @@ operation:
           stepCounter: 5499ac5f-d0f8-4034-ab77-3564c3a94232
         config: {}
         dataType: VARCHAR(15)
-        description: ""
+        description: test
         name: S_PHONE
         nullable: false
         sourceColumnReferences:

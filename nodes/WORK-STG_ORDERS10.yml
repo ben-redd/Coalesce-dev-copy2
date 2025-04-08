@@ -82,7 +82,7 @@ operation:
           stepCounter: 1702d5c3-8f23-447e-ac11-d623d28fa832
         config: {}
         dataType: DATE
-        description: ""
+        description: test
         name: O_ORDERDATE
         nullable: false
         sourceColumnReferences:

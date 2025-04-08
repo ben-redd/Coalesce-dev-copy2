@@ -82,7 +82,7 @@ operation:
           stepCounter: 8201525e-ee31-4032-aefc-9910b90ef029
         config: {}
         dataType: NUMBER(12,2)
-        description: ""
+        description: test
         name: O_TOTALPRICE
         nullable: false
         sourceColumnReferences:

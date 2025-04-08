@@ -152,7 +152,7 @@ operation:
           stepCounter: 1e093a10-699d-4882-be2c-eb5f7df0fbd7
         config: {}
         dataType: NUMBER
-        description: ""
+        description: test
         name: TEST_COL
         nullable: true
         sourceColumnReferences:
