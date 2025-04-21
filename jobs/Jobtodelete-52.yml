@@ -1,6 +1,0 @@
-excludeSelector: ""
-fileVersion: 1
-id: "52"
-includeSelector: "{ subgraph: \"DELETE later\" }"
-name: Job to delete
-type: Job
