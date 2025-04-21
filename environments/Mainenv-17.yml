@@ -5,7 +5,7 @@ mappingDefinitions:
     database: BEN_EDW
     schema: TRASH_ENV
   SAMPLE:
-    database: COALESCE_SAMPLE_DATABASE
+    database: ""
     schema: ""
   WORK:
     database: BEN_EDW
