@@ -28,20 +28,6 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: de67eec7-d04c-4157-9867-90875571f9f7
-          stepCounter: 844307e8-9544-4398-8776-244ae6a69280
-        config: {}
-        dataType: NUMBER(38,0)
-        description: SF*1,500,000 are sparsely populated
-        name: O_ORDERKEY
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 3deca81e-f100-45b4-bb80-bcc03fc9c711
-                stepCounter: da521b9d-fe26-4b59-9024-21268a942475
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
           columnCounter: 7f12e3a7-bbe3-4550-838c-88448ec614f6
           stepCounter: 844307e8-9544-4398-8776-244ae6a69280
         config: {}
