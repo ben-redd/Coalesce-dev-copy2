@@ -115,20 +115,6 @@ operation:
               - columnCounter: c17254da-8385-4226-9d6c-b07d874bca7e
                 stepCounter: 0e069cfa-444a-49f4-835b-6fa0f1a2b4f5
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: f038e771-a0ff-4c3d-becd-e1f844ec7778
-          stepCounter: 7ab8d8f4-1cd9-40a2-b227-e708646439ea
-        config: {}
-        dataType: VARCHAR(117)
-        description: ""
-        name: C_COMMENT_EDIT
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 2c7b3b45-47eb-4758-b9d5-a44f7ad4a1d0
-                stepCounter: 0e069cfa-444a-49f4-835b-6fa0f1a2b4f5
-            transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
