@@ -121,7 +121,7 @@ operation:
           stepCounter: 6f6dd580-54c8-4a03-8b1d-a31a5998f725
         config: {}
         dataType: VARCHAR(10)
-        description: ""
+        description: don't use single quotes
         name: C_MKTSEGMENT
         nullable: true
         sourceColumnReferences:
