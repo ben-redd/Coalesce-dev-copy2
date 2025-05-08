@@ -209,7 +209,7 @@ operation:
           stepCounter: f52f7c16-3ff7-4fb3-9416-e1d88b86f610
         config: {}
         dataType: VARCHAR(25)
-        description: ""
+        description: TEST
         name: L_SHIPINSTRUCT
         nullable: false
         sourceColumnReferences:
