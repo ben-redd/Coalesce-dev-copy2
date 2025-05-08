@@ -2,5 +2,5 @@ excludeSelector: ""
 fileVersion: 1
 id: "54"
 includeSelector: "{ location: SAMPLE name: CUSTOMER } OR { location: WORK name: WRK_CUSTOMER }"
-name: A normal name
+name: A job with a really long ass name that will be long enough that it gets truncated in the deploy modal
 type: Job
