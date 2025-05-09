@@ -58,5 +58,5 @@ metadata:
         type: textBox
         syntax: sql
         isRequired: false
-name: Copy of Stage with a really long ass name that will be long enough that it gets truncated in the deploy modal
+name: Copy of Stage test
 type: NodeType
