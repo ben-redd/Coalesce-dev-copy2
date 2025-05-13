@@ -1,6 +1,0 @@
-excludeSelector: ""
-fileVersion: 1
-id: "55"
-includeSelector: "{ subgraph: \"Subgraph Test 1 UPDATE\" }"
-name: Scheduled job test
-type: Job
