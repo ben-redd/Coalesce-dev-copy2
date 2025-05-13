@@ -1,6 +1,6 @@
 fileVersion: 1
 id: 07d39971-9f1c-4774-8f4c-4ea9ec25ef16
-name: A_NODE_WITH_A_REALLY_LONG_ASS_NAME_THAT_GOES_ON_AND_ON_FOR_EVER
+name: A_NODE_WITH_A_REALLY_LONG_ASS_NAME_THAT_GOES_ON_AND_ON_FOR_EVER_AND_JUST_KEEPS_GOING_WAY_LONGER_THAN_YOU_WOULD_EVER_EXPECT
 operation:
   config:
     insertStrategy: INSERT
@@ -74,7 +74,10 @@ operation:
                 stepCounter: 0bee737e-1c18-4208-be71-6791b2cb73b1
             transform: ""
     cteString: ""
+    description: ""
+    destinationName: ""
     enabledColumnTestIDs: []
+    materializationOption: ""
     sourceMapping:
       - aliases: {}
         customSQL:
@@ -84,9 +87,9 @@ operation:
             nodeName: STG_NATION4
         join:
           joinCondition: FROM {{ ref('WORK', 'STG_NATION4') }} "STG_NATION4"
-        name: A_NODE_WITH_A_REALLY_LONG_ASS_NAME_THAT_GOES_ON_AND_ON_FOR_EVER
+        name: A_NODE_WITH_A_REALLY_LONG_ASS_NAME_THAT_GOES_ON_AND_ON_FOR_EVER_AND_JUST_KEEPS_GOING_WAY_LONGER_THAN_YOU_WOULD_EVER_EXPECT
         noLinkRefs: []
-  name: A_NODE_WITH_A_REALLY_LONG_ASS_NAME_THAT_GOES_ON_AND_ON_FOR_EVER
+  name: A_NODE_WITH_A_REALLY_LONG_ASS_NAME_THAT_GOES_ON_AND_ON_FOR_EVER_AND_JUST_KEEPS_GOING_WAY_LONGER_THAN_YOU_WOULD_EVER_EXPECT
   overrideSQL: false
   schema: ""
   sqlType: Stage
