@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "57"
+includeSelector: "{ subgraph: \"New Subgraph 2\" }"
+name: Scheduled job warning test
+type: Job
