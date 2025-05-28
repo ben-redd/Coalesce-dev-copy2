@@ -33,17 +33,6 @@ metadata:
           isRequired: false
           enableIf: 'true'
         - type: textBox
-          displayName: 'My textbox'
-          attributeName: 'textboxInput'
-          default: 'test'
-          isRequired: false
-          enableIf: 'true'
-        -- - type: columnSelector
-        --   displayName: My Column Selector
-        --   attributeName: myColumnSelector
-        --   isRequired: true
-        --   enableIf: 'true'
-        isRequired: false
-        enableIf: 'true'
+    f;sdjklsdf`109`; lL
 name: TEST UDN
 type: NodeType
