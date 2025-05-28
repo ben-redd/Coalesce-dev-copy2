@@ -1,5 +1,8 @@
 fileVersion: 1
 id: "93"
-mappingDefinitions: {}
+mappingDefinitions:
+  EMPTY:
+    database: ""
+    schema: ""
 name: DEV 5000 ENV
 type: Environment

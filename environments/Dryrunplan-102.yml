@@ -1,5 +1,8 @@
 fileVersion: 1
 id: "102"
-mappingDefinitions: {}
+mappingDefinitions:
+  EMPTY:
+    database: ""
+    schema: ""
 name: Dry run plan
 type: Environment

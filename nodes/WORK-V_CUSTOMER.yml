@@ -103,7 +103,10 @@ operation:
     sourceMapping:
       - aliases: {}
         customSQL:
-          customSQL: ""
+          customSQL: |-
+            SELECT abc
+            FROM def
+            LEFT JOIN xyz ON a.b = c.d;
         dependencies:
           - locationName: SAMPLE
             nodeName: CUSTOMER
@@ -112,7 +115,7 @@ operation:
         name: V_CUSTOMER
         noLinkRefs: []
   name: V_CUSTOMER
-  overrideSQL: false
+  overrideSQL: true
   schema: ""
   sqlType: View
   type: sql

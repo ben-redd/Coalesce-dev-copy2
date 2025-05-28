@@ -1,5 +1,8 @@
 fileVersion: 1
 id: "100"
-mappingDefinitions: {}
+mappingDefinitions:
+  EMPTY:
+    database: ""
+    schema: ""
 name: Simple DAG ENV
 type: Environment
