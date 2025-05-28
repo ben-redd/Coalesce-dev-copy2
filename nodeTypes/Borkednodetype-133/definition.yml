@@ -52,12 +52,6 @@ metadata:
         type: textBox
         syntax: sql
         isRequired: false
-
-      - displayName: Post-SQL
-        attributeName: postSQL
-        type: textBox
-        syntax: sql
-        isRequired: false
-    s;lkajfasd;'l"'
+    sdfkljsl;';&*@()'
 name: Borked node type
 type: NodeType
