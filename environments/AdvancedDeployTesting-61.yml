@@ -1,9 +1,6 @@
 fileVersion: 1
 id: "61"
 mappingDefinitions:
-  EMPTY:
-    database: ""
-    schema: ""
   ENV_PRESYNC:
     database: ""
     schema: ""
