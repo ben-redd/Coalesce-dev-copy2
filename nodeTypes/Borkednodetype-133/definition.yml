@@ -4,7 +4,7 @@ isDisabled: false
 metadata:
   defaultStorageLocation: null
   error: null
-  nodeMetadataSpec: |-
+  nodeMetadataSpec: |
     capitalized: Copy of Stage
     short: STG
     plural: Stages
@@ -52,6 +52,5 @@ metadata:
         type: textBox
         syntax: sql
         isRequired: false
-    sdfkljsl;';&*@()'
 name: Borked node type
 type: NodeType
