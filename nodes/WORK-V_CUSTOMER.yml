@@ -115,7 +115,7 @@ operation:
         name: V_CUSTOMER
         noLinkRefs: []
   name: V_CUSTOMER
-  overrideSQL: true
+  overrideSQL: false
   schema: ""
   sqlType: View
   type: sql
