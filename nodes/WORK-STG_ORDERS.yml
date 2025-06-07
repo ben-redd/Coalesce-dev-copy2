@@ -169,14 +169,15 @@ operation:
       - isDistinct
       - hasNull
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          ORDERS: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: SAMPLE
-            nodeName: ORDERS27
+            nodeName: ORDERS
         join:
-          joinCondition: FROM {{ ref('SAMPLE', 'ORDERS27') }} "ORDERS27"
+          joinCondition: FROM {{ ref('SAMPLE', 'ORDERS') }} "ORDERS"
         name: STG_ORDERS
         noLinkRefs: []
   name: STG_ORDERS
