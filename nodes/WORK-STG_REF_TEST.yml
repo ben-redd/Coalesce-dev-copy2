@@ -97,7 +97,7 @@ operation:
         name: STG_REF_TEST
         noLinkRefs: []
   name: STG_REF_TEST
-  overrideSQL: false
+  overrideSQL: true
   schema: ""
   sqlType: "135"
   type: sql
