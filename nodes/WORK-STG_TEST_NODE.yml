@@ -81,7 +81,8 @@ operation:
         customSQL:
           customSQL: |-
             {{ stage('Override Create SQL') }}
-            	CREATE OR REPLACE VIEW {{ ref(config.refTest, 'Testing')}} AS (
+            	
+            	CREATE OR REPLACE VIEW {{ ref('WORK', '')}} AS (
             		SELECT 
              "N_NATIONKEY" AS "N_NATIONKEY",
              "N_NAME" AS "N_NAME",
@@ -97,7 +98,7 @@ operation:
         name: STG_TEST_NODE
         noLinkRefs: []
   name: STG_TEST_NODE
-  overrideSQL: false
+  overrideSQL: true
   schema: ""
   sqlType: "135"
   type: sql
