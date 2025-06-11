@@ -90,7 +90,7 @@ operation:
   name: STG_REF_TEST_IN_TEMPLATE
   overrideSQL: false
   schema: ""
-  sqlType: Stage
+  sqlType: "135"
   type: sql
   version: 1
 type: Node
