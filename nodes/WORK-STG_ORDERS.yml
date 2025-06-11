@@ -21,7 +21,7 @@ operation:
     appliedNodeTests: []
     columns:
       - appliedColumnTests:
-          hasNull: false
+          hasNull: true
           isDistinct: false
         columnReference:
           columnCounter: 3deca81e-f100-45b4-bb80-bcc03fc9c711
@@ -54,7 +54,7 @@ operation:
             transform: ""
       - appliedColumnTests:
           hasNull: false
-          isDistinct: true
+          isDistinct: false
         columnReference:
           columnCounter: 1e5f84e1-7561-47ed-a2e4-c3520670a227
           stepCounter: da521b9d-fe26-4b59-9024-21268a942475
