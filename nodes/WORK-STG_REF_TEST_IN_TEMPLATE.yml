@@ -14,7 +14,7 @@ operation:
   description: ""
   isMultisource: false
   locationName: WORK
-  materializationType: table
+  materializationType: view
   metadata:
     appliedNodeTests: []
     columns:
@@ -79,7 +79,16 @@ operation:
     sourceMapping:
       - aliases: {}
         customSQL:
-          customSQL: ""
+          customSQL: |-
+            {{ stage('Override Create SQL') }}
+            	CREATE OR REPLACE VIEW {{ ref('bananas', '')}} AS (
+            		SELECT 
+             "N_NATIONKEY" AS "N_NATIONKEY",
+             "N_NAME" AS "N_NAME",
+             "N_REGIONKEY" AS "N_REGIONKEY",
+             "N_COMMENT" AS "N_COMMENT"
+             FROM {{ ref('WORK', 'TEST_NODE') }}
+            	)
         dependencies:
           - locationName: WORK
             nodeName: TEST_NODE
@@ -88,7 +97,7 @@ operation:
         name: STG_REF_TEST_IN_TEMPLATE
         noLinkRefs: []
   name: STG_REF_TEST_IN_TEMPLATE
-  overrideSQL: false
+  overrideSQL: true
   schema: ""
   sqlType: "135"
   type: sql
