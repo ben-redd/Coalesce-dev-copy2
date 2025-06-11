@@ -4,7 +4,7 @@
 
 {% elif node.materializationType == 'table' %}
 	{{ stage('Create Stage Table') }}
-
+    -- papaya
 	CREATE OR REPLACE TABLE {{ ref_no_link(config.refTest, node.name) }}
 	(
 		{% for col in columns %}
