@@ -98,20 +98,6 @@ operation:
               - columnCounter: aa91c075-37fe-4b4b-84ab-5dedf52250d1
                 stepCounter: 74f12647-307b-4441-bde9-7f808f5dc664
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 73f09673-3ea7-40ba-a09e-5a4b6c727dd4
-          stepCounter: 834cc52c-d843-4385-818d-be2e45cb5a56
-        config: {}
-        dataType: VARCHAR(101)
-        description: ""
-        name: S_COMMENT
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: b60a6f44-6137-4e2f-9a13-38b059a1239a
-                stepCounter: 74f12647-307b-4441-bde9-7f808f5dc664
-            transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
