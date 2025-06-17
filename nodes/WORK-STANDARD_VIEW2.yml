@@ -34,7 +34,7 @@ operation:
           stepCounter: bb58e425-e268-46b3-9cab-eecb3e9f846c
         config: {}
         dataType: VARCHAR(25)
-        description: ""
+        description: test description
         name: S_NAME
         nullable: false
         sourceColumnReferences:

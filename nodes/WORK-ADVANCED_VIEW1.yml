@@ -90,7 +90,7 @@ operation:
           stepCounter: 834cc52c-d843-4385-818d-be2e45cb5a56
         config: {}
         dataType: NUMBER(12,2)
-        description: ""
+        description: test description
         name: S_ACCTBAL
         nullable: false
         sourceColumnReferences:
