@@ -10,6 +10,7 @@ metadata:
     tagColor: '#C4C4C4'
     isDisabled: true
     plural: SCOTT'S ADVANCED VIEW'S
+    deployStrategy: advanced
 
     config:
       - groupName: Options
