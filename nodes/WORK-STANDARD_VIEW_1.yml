@@ -30,20 +30,6 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 305fd142-0881-40b9-a283-c1ee73155fe7
-          stepCounter: 8fdf6804-665d-4cae-9091-b6008bfabbad
-        config: {}
-        dataType: VARCHAR(25)
-        description: ""
-        name: S_NAME
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 166548e4-4c42-423a-b2a5-aff3d07a3de7
-                stepCounter: 04d9ed46-393b-4da7-bcb5-5c9589a1c662
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
           columnCounter: 8c544fef-f06e-4d77-82e4-68058ff10ea3
           stepCounter: 8fdf6804-665d-4cae-9091-b6008bfabbad
         config: {}
@@ -98,6 +84,26 @@ operation:
               - columnCounter: 13cc749f-fab4-4c44-9926-d2143807a1bd
                 stepCounter: 04d9ed46-393b-4da7-bcb5-5c9589a1c662
             transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 92cc5a27-c30c-415d-8705-6eec2cb90618
+          stepCounter: 8fdf6804-665d-4cae-9091-b6008bfabbad
+        config: {}
+        dataType: NUMBER
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: S_TESTING
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: ""
+        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:

@@ -30,20 +30,6 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: f8a76111-817a-4650-9112-72bdf1b4b614
-          stepCounter: 73e2b2e9-612c-4e46-bdfc-8802b360b7a4
-        config: {}
-        dataType: VARCHAR(25)
-        description: ""
-        name: S_NAME
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 7129f6e8-7e79-49e2-8918-bce5a12916aa
-                stepCounter: 75bfa13d-2f82-465f-ba18-4336731f3a25
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
           columnCounter: 33ffa141-cd12-4f8c-9a69-6267347933b4
           stepCounter: 73e2b2e9-612c-4e46-bdfc-8802b360b7a4
         config: {}
