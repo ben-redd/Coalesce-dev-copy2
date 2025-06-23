@@ -50,7 +50,7 @@ operation:
           columnCounter: 5a409f88-5e69-404c-8389-fdf2227bfa31
           stepCounter: bccedb23-60ef-496b-8d0a-f48a68683149
         config: {}
-        dataType: VARCHAR(40)
+        dataType: VARCHAR(42)
         description: ""
         name: S_ADDRESS
         nullable: false
