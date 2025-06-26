@@ -1,0 +1,5 @@
+fileVersion: 1
+id: "129"
+mappingDefinitions: {}
+name: Snowflake Oauth env
+type: Environment
