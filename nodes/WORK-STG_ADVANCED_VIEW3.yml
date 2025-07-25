@@ -1,0 +1,123 @@
+fileVersion: 1
+id: dd3e0a0f-a229-4fbb-ada1-293c6d63e64a
+name: STG_ADVANCED_VIEW3
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8fd46b6d-1347-4a04-864f-8885fe4e9cf8
+          stepCounter: dd3e0a0f-a229-4fbb-ada1-293c6d63e64a
+        config: {}
+        dataType: NUMBER(38,0)
+        description: SF*10,000 are populated
+        name: S_SUPPKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b5b29a5b-3a50-4b19-8427-5011dbe3b1f4
+                stepCounter: 834cc52c-d843-4385-818d-be2e45cb5a56
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9da6dbfe-beec-49a8-85c1-59721c06779c
+          stepCounter: dd3e0a0f-a229-4fbb-ada1-293c6d63e64a
+        config: {}
+        dataType: VARCHAR(25)
+        description: ""
+        name: S_NAME
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f6dfe0a0-d1e2-4c4d-b300-0c503b359cb9
+                stepCounter: 834cc52c-d843-4385-818d-be2e45cb5a56
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 28ba1fe0-dd1e-4ad7-8315-ea9fadf7e337
+          stepCounter: dd3e0a0f-a229-4fbb-ada1-293c6d63e64a
+        config: {}
+        dataType: VARCHAR(40)
+        description: ""
+        name: S_ADDRESS
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 52c19848-0eac-4614-9998-7d3f191acfe3
+                stepCounter: 834cc52c-d843-4385-818d-be2e45cb5a56
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5ec1ed1a-cec4-47d7-869c-ebf724c52d70
+          stepCounter: dd3e0a0f-a229-4fbb-ada1-293c6d63e64a
+        config: {}
+        dataType: NUMBER(38,0)
+        description: Foreign Key to N_NATIONKEY
+        name: S_NATIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d4478519-786c-4e2c-ae63-d15f37b9cc85
+                stepCounter: 834cc52c-d843-4385-818d-be2e45cb5a56
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 417cede0-67b0-46d6-b261-37c68bc49e94
+          stepCounter: dd3e0a0f-a229-4fbb-ada1-293c6d63e64a
+        config: {}
+        dataType: VARCHAR(15)
+        description: ""
+        name: S_PHONE
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: bab6c176-6fc1-4ae9-8877-254242a5faaf
+                stepCounter: 834cc52c-d843-4385-818d-be2e45cb5a56
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e6501699-508f-4ea4-9c1e-3beca21a10e7
+          stepCounter: dd3e0a0f-a229-4fbb-ada1-293c6d63e64a
+        config: {}
+        dataType: NUMBER(12,2)
+        description: test description
+        name: S_ACCTBAL
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d98a4ff9-08cd-407f-9e6a-0457f92c5949
+                stepCounter: 834cc52c-d843-4385-818d-be2e45cb5a56
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: ADVANCED_VIEW1
+        join:
+          joinCondition: FROM {{ ref('WORK', 'ADVANCED_VIEW1') }} "ADVANCED_VIEW1"
+        name: STG_ADVANCED_VIEW3
+        noLinkRefs: []
+  name: STG_ADVANCED_VIEW3
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node

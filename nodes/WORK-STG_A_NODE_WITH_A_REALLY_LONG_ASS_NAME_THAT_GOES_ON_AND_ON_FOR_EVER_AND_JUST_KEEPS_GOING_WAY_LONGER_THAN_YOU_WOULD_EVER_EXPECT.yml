@@ -1,0 +1,109 @@
+fileVersion: 1
+id: b47d2ccf-96a5-4fec-b6c7-87508e0a48d2
+name: STG_A_NODE_WITH_A_REALLY_LONG_ASS_NAME_THAT_GOES_ON_AND_ON_FOR_EVER_AND_JUST_KEEPS_GOING_WAY_LONGER_THAN_YOU_WOULD_EVER_EXPECT
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: eb0193c7-793d-4e03-b2fa-64ce4f219e11
+          stepCounter: b47d2ccf-96a5-4fec-b6c7-87508e0a48d2
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: N_NATIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a7b33f84-1ae7-42f7-8d20-7649cec9eaac
+                stepCounter: 07d39971-9f1c-4774-8f4c-4ea9ec25ef16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 637cceb2-1b39-4094-94a6-930f2a315860
+          stepCounter: b47d2ccf-96a5-4fec-b6c7-87508e0a48d2
+        config: {}
+        dataType: VARCHAR(25)
+        description: ""
+        name: N_NAME
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a5627542-df38-40fc-8eee-ea7ab6555fbc
+                stepCounter: 07d39971-9f1c-4774-8f4c-4ea9ec25ef16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3a18735c-6c3f-4607-802c-6fc7ecf7c60b
+          stepCounter: b47d2ccf-96a5-4fec-b6c7-87508e0a48d2
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: N_REGIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0d0c389c-d81b-4dda-9f18-ae9b1f7e792a
+                stepCounter: 07d39971-9f1c-4774-8f4c-4ea9ec25ef16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ffc73dd3-385c-4302-9a4a-bdeb239e9f5b
+          stepCounter: b47d2ccf-96a5-4fec-b6c7-87508e0a48d2
+        config: {}
+        dataType: VARCHAR(152)
+        description: ""
+        name: N_COMMENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3b8227ac-438b-42f7-a6a7-4609f8acf84e
+                stepCounter: 07d39971-9f1c-4774-8f4c-4ea9ec25ef16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 325b9b64-963b-4544-95f2-c8fe2ebe3e72
+          stepCounter: b47d2ccf-96a5-4fec-b6c7-87508e0a48d2
+        config: {}
+        dataType: VARCHAR()
+        description: DistillerybanjovibecessionfamhellagatekeepkogichillwaveFreeganthundercatskalechipsbruhauthenticclichefarmtotableafblackbirdspyplanehoodie.Crayskateboardhoodie,mukbangsynthchicharronesknausgaardkeytarMustachewoketaxidermysameiceland
+        name: Distillery_banjovibecessionfamhellagatekeepkogichillwaveFreeganthundercatskalechipsbruhauthenticclichefarmtotableafblackbirdspyplanehoodie.Crayskateboardhoodie,mukbangsynthchicharronesknausgaardkeytarMustachewoketaxidermysameiceland
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 14ba1a22-ffcd-4769-bac2-1b5fa34fbc1c
+                stepCounter: 07d39971-9f1c-4774-8f4c-4ea9ec25ef16
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: A_NODE_WITH_A_REALLY_LONG_ASS_NAME_THAT_GOES_ON_AND_ON_FOR_EVER_AND_JUST_KEEPS_GOING_WAY_LONGER_THAN_YOU_WOULD_EVER_EXPECT
+        join:
+          joinCondition: FROM {{ ref('WORK', 'A_NODE_WITH_A_REALLY_LONG_ASS_NAME_THAT_GOES_ON_AND_ON_FOR_EVER_AND_JUST_KEEPS_GOING_WAY_LONGER_THAN_YOU_WOULD_EVER_EXPECT') }} "A_NODE_WITH_A_REALLY_LONG_ASS_NAME_THAT_GOES_ON_AND_ON_FOR_EVER_AND_JUST_KEEPS_GOING_WAY_LONGER_THAN_YOU_WOULD_EVER_EXPECT"
+        name: STG_A_NODE_WITH_A_REALLY_LONG_ASS_NAME_THAT_GOES_ON_AND_ON_FOR_EVER_AND_JUST_KEEPS_GOING_WAY_LONGER_THAN_YOU_WOULD_EVER_EXPECT
+        noLinkRefs: []
+  name: STG_A_NODE_WITH_A_REALLY_LONG_ASS_NAME_THAT_GOES_ON_AND_ON_FOR_EVER_AND_JUST_KEEPS_GOING_WAY_LONGER_THAN_YOU_WOULD_EVER_EXPECT
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node
