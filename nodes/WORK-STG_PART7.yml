@@ -160,6 +160,6 @@ operation:
   overrideSQL: false
   schema: ""
   sqlType: Stage
-  type: sql
+  type: sourceInput
   version: 1
 type: Node
