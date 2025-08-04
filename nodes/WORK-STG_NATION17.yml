@@ -1,5 +1,5 @@
 fileVersion: 1
-id: b532074a-ff52-4580-b53c-67e83e665d34
+id: d0469943-93e8-44d4-999d-29a8677a633a
 name: STG_NATION17
 operation:
   config:
@@ -19,8 +19,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: c4697224-017a-41e6-97bf-4589b956af95
-          stepCounter: b532074a-ff52-4580-b53c-67e83e665d34
+          columnCounter: 5793625f-835e-4988-8e85-a12d6f4b8279
+          stepCounter: d0469943-93e8-44d4-999d-29a8677a633a
         config: {}
         dataType: NUMBER(38,0)
         description: ""
@@ -33,8 +33,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: b712c376-42ff-4c49-86dd-a4cc149e319c
-          stepCounter: b532074a-ff52-4580-b53c-67e83e665d34
+          columnCounter: e8c1d30b-729f-4392-84f0-15c751df97d5
+          stepCounter: d0469943-93e8-44d4-999d-29a8677a633a
         config: {}
         dataType: VARCHAR(25)
         description: ""
@@ -47,8 +47,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 5bb6b621-e85e-4cd1-a334-294c8633ccd2
-          stepCounter: b532074a-ff52-4580-b53c-67e83e665d34
+          columnCounter: c7f6ddcd-1d78-4872-80ff-d0e04c31ba21
+          stepCounter: d0469943-93e8-44d4-999d-29a8677a633a
         config: {}
         dataType: VARCHAR(152)
         description: ""
@@ -61,8 +61,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: da0a954a-7176-4020-be77-4e574f1bc6fe
-          stepCounter: b532074a-ff52-4580-b53c-67e83e665d34
+          columnCounter: f114f8b3-8465-4a06-be0e-baf1a3407c7c
+          stepCounter: d0469943-93e8-44d4-999d-29a8677a633a
         config: {}
         dataType: STRING
         description: ""
