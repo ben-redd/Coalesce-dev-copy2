@@ -2,8 +2,8 @@ fileVersion: 1
 id: "17"
 mappingDefinitions:
   ENV_PRESYNC:
-    database: BEN_EDW
-    schema: TRASH_ENV
+    database: TEMP_TEST_DB
+    schema: TEMP_SAFE_DB
   SAMPLE:
     database: COALESCE_SAMPLE_DATABASE
     schema: TPCH_SF001
