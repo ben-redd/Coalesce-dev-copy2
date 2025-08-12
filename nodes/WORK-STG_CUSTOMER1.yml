@@ -101,20 +101,6 @@ operation:
               - columnCounter: e303e48e-2b0d-4091-b84b-44c14f4f621b
                 stepCounter: b52204cd-fe8b-46bf-838b-db03076772fa
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 939dbbf3-dd6e-4804-b838-17aa3f7ae5b1
-          stepCounter: b6d11831-ec9f-4783-82f2-d36c74b50be1
-        config: {}
-        dataType: VARCHAR
-        description: ""
-        name: ERROR_GENERATOR
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 939dbbf3-dd6e-4804-b838-17aa3f7ae5b1
-                stepCounter: b6d11831-ec9f-4783-82f2-d36c74b50be1
-            transform: ""
     cteString: ""
     description: ""
     destinationName: ""
