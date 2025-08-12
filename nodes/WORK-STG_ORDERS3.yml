@@ -138,7 +138,7 @@ operation:
           stepCounter: abf1306f-43bc-450d-b3d8-bbed84ee460a
         config: {}
         dataType: VARCHAR(79)
-        description: ""
+        description: Test Description
         name: O_COMMENT
         nullable: false
         sourceColumnReferences:
