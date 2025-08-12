@@ -1,6 +1,6 @@
 excludeSelector: ""
 fileVersion: 1
 id: "37"
-includeSelector: "{ subgraph: \"New Subgraph\" } OR { location: WORK name: STG_CUSTOMER1 } OR { location: SAMPLE name: CUSTOMER } OR { location: WORK name: V_CUSTOMER }"
+includeSelector: "{ subgraph: \"testing\" } OR { location: WORK name: STG_CUSTOMER1 } OR { location: SAMPLE name: CUSTOMER } OR { location: WORK name: V_CUSTOMER }"
 name: Job with failing test
 type: Job
