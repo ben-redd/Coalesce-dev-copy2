@@ -4,7 +4,29 @@ name: STG_CUSTOMER1
 operation:
   config:
     insertStrategy: INSERT
-    postSQL: ""
+    postSQL: |-
+      MERGE INTO `dengel_dev`.`dev_environment`.`STG_NATION` AS target
+      USING (
+          -- Sample data to demonstrate INSERT, UPDATE, DELETE
+          SELECT 25 as N_NATIONKEY, 'TEST_NATION' as N_NAME, 1 as N_REGIONKEY, 'Test nation for merge demo' as N_COMMENT
+          UNION ALL
+          SELECT 0 as N_NATIONKEY, 'UPDATED_ALGERIA' as N_NAME, 0 as N_REGIONKEY, 'Updated comment for Algeria' as N_COMMENT
+          UNION ALL
+          SELECT 1 as N_NATIONKEY, 'TO_DELETE' as N_NAME, 0 as N_REGIONKEY, 'This will be deleted' as N_COMMENT
+      ) AS source
+      ON target.N_NATIONKEY = source.N_NATIONKEY
+
+      WHEN MATCHED AND source.N_NAME = 'UPDATED_ALGERIA' THEN
+          UPDATE SET 
+              N_NAME = source.N_NAME,
+              N_COMMENT = source.N_COMMENT
+
+      WHEN MATCHED AND source.N_NAME = 'TO_DELETE' THEN
+          DELETE
+
+      WHEN NOT MATCHED THEN
+          INSERT (N_NATIONKEY, N_NAME, N_REGIONKEY, N_COMMENT)
+          VALUES (source.N_NATIONKEY, source.N_NAME, source.N_REGIONKEY, source.N_COMMENT)
     preSQL: ""
     testsEnabled: true
     truncateBefore: true
