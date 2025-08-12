@@ -4,29 +4,7 @@ name: STG_CUSTOMER1
 operation:
   config:
     insertStrategy: INSERT
-    postSQL: |-
-      MERGE INTO `dengel_dev`.`dev_environment`.`STG_NATION` AS target
-      USING (
-          -- Sample data to demonstrate INSERT, UPDATE, DELETE
-          SELECT 25 as N_NATIONKEY, 'TEST_NATION' as N_NAME, 1 as N_REGIONKEY, 'Test nation for merge demo' as N_COMMENT
-          UNION ALL
-          SELECT 0 as N_NATIONKEY, 'UPDATED_ALGERIA' as N_NAME, 0 as N_REGIONKEY, 'Updated comment for Algeria' as N_COMMENT
-          UNION ALL
-          SELECT 1 as N_NATIONKEY, 'TO_DELETE' as N_NAME, 0 as N_REGIONKEY, 'This will be deleted' as N_COMMENT
-      ) AS source
-      ON target.N_NATIONKEY = source.N_NATIONKEY
-
-      WHEN MATCHED AND source.N_NAME = 'UPDATED_ALGERIA' THEN
-          UPDATE SET 
-              N_NAME = source.N_NAME,
-              N_COMMENT = source.N_COMMENT
-
-      WHEN MATCHED AND source.N_NAME = 'TO_DELETE' THEN
-          DELETE
-
-      WHEN NOT MATCHED THEN
-          INSERT (N_NATIONKEY, N_NAME, N_REGIONKEY, N_COMMENT)
-          VALUES (source.N_NATIONKEY, source.N_NAME, source.N_REGIONKEY, source.N_COMMENT)
+    postSQL: ""
     preSQL: ""
     testsEnabled: true
     truncateBefore: true
@@ -124,16 +102,46 @@ operation:
                 stepCounter: b52204cd-fe8b-46bf-838b-db03076772fa
             transform: ""
     cteString: ""
+    description: ""
+    destinationName: ""
     enabledColumnTestIDs: []
+    materializationOption: ""
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          V_CUSTOMER: b52204cd-fe8b-46bf-838b-db03076772fa
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: V_CUSTOMER
         join:
-          joinCondition: FROM {{ ref('WORK', 'V_CUSTOMER') }} "V_CUSTOMER"
+          joinCondition: |-
+            FROM {{ ref('WORK', 'V_CUSTOMER') }} "V_CUSTOMER"
+
+            -- This intentionally broken SQL will generate a large error message for testing visibility
+            ; SELECT 
+                NONEXISTENT_TABLE_1.INVALID_COLUMN_A,
+                NONEXISTENT_TABLE_2.INVALID_COLUMN_B,
+                NONEXISTENT_TABLE_3.INVALID_COLUMN_C,
+                MISSING_FUNCTION(UNDEFINED_COLUMN_1, UNDEFINED_COLUMN_2, UNDEFINED_COLUMN_3),
+                ANOTHER_MISSING_FUNCTION(INVALID_NESTED_FUNCTION(BAD_COLUMN_1, BAD_COLUMN_2)),
+                COMPLEX_INVALID_CASE_STATEMENT(
+                    CASE 
+                        WHEN NONEXISTENT_COLUMN_1 = UNDEFINED_VALUE_1 THEN MISSING_COLUMN_A
+                        WHEN NONEXISTENT_COLUMN_2 = UNDEFINED_VALUE_2 THEN MISSING_COLUMN_B
+                        WHEN NONEXISTENT_COLUMN_3 = UNDEFINED_VALUE_3 THEN MISSING_COLUMN_C
+                        ELSE COMPLETELY_INVALID_REFERENCE
+                    END
+                )
+            FROM NONEXISTENT_SCHEMA.NONEXISTENT_TABLE_1 NT1
+            JOIN MISSING_SCHEMA.MISSING_TABLE_2 MT2 ON NT1.INVALID_KEY = MT2.INVALID_KEY
+            LEFT JOIN UNDEFINED_SCHEMA.UNDEFINED_TABLE_3 UT3 ON MT2.BAD_COLUMN = UT3.BAD_COLUMN
+            WHERE INVALID_COLUMN_X IN (SELECT MISSING_COLUMN FROM NONEXISTENT_VIEW)
+                AND UNDEFINED_FUNCTION(INVALID_PARAMETER_1, INVALID_PARAMETER_2) > 0
+                AND MISSING_COLUMN_Y LIKE '%INVALID_PATTERN%'
+            GROUP BY NONEXISTENT_GROUPING_COLUMN_1, NONEXISTENT_GROUPING_COLUMN_2
+            HAVING COUNT(INVALID_AGGREGATE_COLUMN) > UNDEFINED_THRESHOLD
+            ORDER BY MISSING_ORDER_COLUMN_1, MISSING_ORDER_COLUMN_2
         name: STG_CUSTOMER1
         noLinkRefs: []
   name: STG_CUSTOMER1
