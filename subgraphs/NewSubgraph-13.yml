@@ -1,9 +1,0 @@
-fileVersion: 1
-id: "13"
-name: New Subgraph
-steps:
-  - 0a85b758-583a-4224-82f7-fd46d981539d
-  - 5f46abb3-1e1c-4dd4-8d51-ba295bd273a1
-  - b52204cd-fe8b-46bf-838b-db03076772fa
-  - c85e02e9-19ba-49f0-8506-d3efabb0eada
-type: Subgraph

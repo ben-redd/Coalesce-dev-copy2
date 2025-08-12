@@ -1,9 +1,0 @@
-fileVersion: 1
-id: "2"
-name: Subgraph Test 1 UPDATE
-steps:
-  - 8dbb31c0-07e8-4707-ba22-7a64630f3a91
-  - a5759ea4-dc73-4d76-b4e4-519eb06d9cbf
-  - abf1306f-43bc-450d-b3d8-bbed84ee460a
-  - da521b9d-fe26-4b59-9024-21268a942475
-type: Subgraph
