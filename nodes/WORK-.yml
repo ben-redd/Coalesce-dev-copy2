@@ -1,6 +1,6 @@
 fileVersion: 1
 id: 13ca5457-b53a-46a7-b0dd-0519700a6d9a
-name: STG_ORDERS17
+name: ""
 operation:
   config:
     insertStrategy: INSERT
@@ -158,9 +158,9 @@ operation:
             nodeName: STG_ORDERS4
         join:
           joinCondition: FROM {{ ref('WORK', 'STG_ORDERS4') }} "STG_ORDERS4"
-        name: STG_ORDERS17
+        name: ""
         noLinkRefs: []
-  name: STG_ORDERS17
+  name: ""
   overrideSQL: false
   schema: ""
   sqlType: Stage
