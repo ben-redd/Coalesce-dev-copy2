@@ -2,9 +2,7 @@ fileVersion: 1
 id: "12"
 name: New Subgraph 2
 steps:
-  - 27cf7e64-ad34-4e17-abca-a810e91eabf0
   - 6530a29b-d9ca-48a7-847f-c7806a9f0ec1
   - 6d3a8c09-4e6c-4f27-8bd7-be56596c2aed
-  - 8d7cc84a-6ae1-48e1-b752-ccbc1af46c2c
   - da2021c5-f522-4486-89cd-2b526c4d3f96
 type: Subgraph
