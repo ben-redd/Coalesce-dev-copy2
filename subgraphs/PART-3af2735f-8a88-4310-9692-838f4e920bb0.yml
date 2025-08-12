@@ -2,8 +2,6 @@ fileVersion: 1
 id: 3af2735f-8a88-4310-9692-838f4e920bb0
 name: PART
 steps:
-  - 53a42e40-f77c-44ce-86ac-7b298da37000
   - 6d3a8c09-4e6c-4f27-8bd7-be56596c2aed
-  - c5ee1b8e-43ef-4d0e-90c4-5d438573c87b
   - da2021c5-f522-4486-89cd-2b526c4d3f96
 type: Subgraph
