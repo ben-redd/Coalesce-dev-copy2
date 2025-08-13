@@ -23,7 +23,7 @@ operation:
           stepCounter: dae62825-3224-4ba4-bc0b-e7f3b9400192
         config: {}
         dataType: NUMBER(38,0)
-        description: ""
+        description: Test description
         name: N_NATIONKEY
         nullable: false
         sourceColumnReferences:
