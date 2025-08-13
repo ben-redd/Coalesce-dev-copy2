@@ -1,0 +1,121 @@
+fileVersion: 1
+id: 224b1075-04c6-4499-838d-3a83de2e140d
+name: V_CUSTOMER2
+operation:
+  config:
+    insertStrategy: UNION
+    selectDistinct: false
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: view
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1f1c73de-dc37-42fe-82a5-647c4d29023e
+          stepCounter: 224b1075-04c6-4499-838d-3a83de2e140d
+        config: {}
+        dataType: NUMBER(38,0)
+        description: SF*150,000 are populated
+        name: C_CUSTKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e74a6760-1d65-4c8e-8384-c0effad0782a
+                stepCounter: cb5ff4c2-651f-4a9b-8797-a82626bce8f0
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f554860b-5b9c-4aed-8bb7-5e9b9db245fb
+          stepCounter: 224b1075-04c6-4499-838d-3a83de2e140d
+        config: {}
+        dataType: VARCHAR(25)
+        description: ""
+        name: C_NAME
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4c7c856e-4901-4302-b311-099065c1f29d
+                stepCounter: cb5ff4c2-651f-4a9b-8797-a82626bce8f0
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e1b2ce9c-9feb-44e0-a528-b0a579f3b4e3
+          stepCounter: 224b1075-04c6-4499-838d-3a83de2e140d
+        config: {}
+        dataType: VARCHAR(40)
+        description: ""
+        name: C_ADDRESS
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 21ca4666-c5f7-4927-8e9a-8ae637a0b1c9
+                stepCounter: cb5ff4c2-651f-4a9b-8797-a82626bce8f0
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8395c5e3-8b03-40e9-97b4-dc67a42d5512
+          stepCounter: 224b1075-04c6-4499-838d-3a83de2e140d
+        config: {}
+        dataType: NUMBER(38,0)
+        description: Foreign Key to N_NATIONKEY
+        name: C_NATIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 876614d4-1b08-49a1-aff4-4d00955d3313
+                stepCounter: cb5ff4c2-651f-4a9b-8797-a82626bce8f0
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 16e0389d-bf77-4f4e-8fba-4f2d934511c6
+          stepCounter: 224b1075-04c6-4499-838d-3a83de2e140d
+        config: {}
+        dataType: VARCHAR(15)
+        description: ""
+        name: C_PHONE
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 91060088-d068-435e-b1c4-ae5f7f4a705f
+                stepCounter: cb5ff4c2-651f-4a9b-8797-a82626bce8f0
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1d68aef7-7804-409c-bda5-8d4cb4895cd2
+          stepCounter: 224b1075-04c6-4499-838d-3a83de2e140d
+        config: {}
+        dataType: NUMBER(12,2)
+        description: ""
+        name: C_ACCTBAL
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5f0dfa34-dcaf-4d58-b152-8841168fac29
+                stepCounter: cb5ff4c2-651f-4a9b-8797-a82626bce8f0
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          V_CUSTOMER1: cb5ff4c2-651f-4a9b-8797-a82626bce8f0
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: V_CUSTOMER1
+        join:
+          joinCondition: FROM {{ ref('WORK', 'V_CUSTOMER1') }} "V_CUSTOMER1"
+        name: V_CUSTOMER2
+        noLinkRefs: []
+  name: V_CUSTOMER2
+  overrideSQL: false
+  schema: ""
+  sqlType: View
+  type: sql
+  version: 1
+type: Node
