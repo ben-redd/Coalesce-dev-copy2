@@ -119,7 +119,7 @@ operation:
         config: {}
         dataType: VARCHAR(117)
         description: ""
-        name: ""
+        name: C_NEW_NAME
         nullable: true
         sourceColumnReferences:
           - columnReferences:
