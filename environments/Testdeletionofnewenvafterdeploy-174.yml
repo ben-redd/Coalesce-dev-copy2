@@ -1,0 +1,14 @@
+fileVersion: 1
+id: "174"
+mappingDefinitions:
+  ENV_PRESYNC:
+    database: BEN_EDW
+    schema: TRASH_ENV
+  SAMPLE:
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+  WORK:
+    database: BEN_EDW
+    schema: TRASH_ENV
+name: Test deletion of new env after deploy
+type: Environment
