@@ -1,0 +1,8 @@
+fileVersion: 1
+id: 1e7ccca5-4f43-4f2a-8059-459499831ee1
+name: circular dependency
+steps:
+  - 6b371a82-67b4-48a2-92d1-cbfd4695874a
+  - 7796ff8e-8de4-4f40-bd4b-7f14b66be8ac
+  - dae62825-3224-4ba4-bc0b-e7f3b9400192
+type: Subgraph

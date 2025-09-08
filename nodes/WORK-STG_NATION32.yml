@@ -28,8 +28,8 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 0fa65a77-f9a6-4caf-98d9-2b8ba714f760
-                stepCounter: dae62825-3224-4ba4-bc0b-e7f3b9400192
+              - columnCounter: 3157ff6d-8f29-44e1-88c8-2bd2476886e2
+                stepCounter: 6b371a82-67b4-48a2-92d1-cbfd4695874a
             transform: ""
       - appliedColumnTests: {}
         columnReference:
@@ -42,8 +42,8 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: d67a1850-0db2-474a-82e7-10f02399e6f4
-                stepCounter: dae62825-3224-4ba4-bc0b-e7f3b9400192
+              - columnCounter: 6c4e5e8e-2b6c-4dc8-8dea-e7e39b88b4f3
+                stepCounter: 6b371a82-67b4-48a2-92d1-cbfd4695874a
             transform: ""
       - appliedColumnTests: {}
         columnReference:
@@ -56,8 +56,8 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 236918c7-0ded-4bda-8b5f-4fb555bcfd77
-                stepCounter: dae62825-3224-4ba4-bc0b-e7f3b9400192
+              - columnCounter: 1bfe2e4e-cfc4-4a31-98f9-a21ab1c03abc
+                stepCounter: 6b371a82-67b4-48a2-92d1-cbfd4695874a
             transform: ""
       - appliedColumnTests: {}
         columnReference:
@@ -70,19 +70,24 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 95b3126e-daeb-4675-9589-11172b9ba422
-                stepCounter: dae62825-3224-4ba4-bc0b-e7f3b9400192
+              - columnCounter: 6492f981-0ec0-4327-8504-6e37d7a463ec
+                stepCounter: 6b371a82-67b4-48a2-92d1-cbfd4695874a
             transform: ""
     cteString: ""
+    description: ""
+    destinationName: ""
     enabledColumnTestIDs: []
+    materializationOption: ""
     sourceMapping:
       - aliases:
-          STG_NATION3: dae62825-3224-4ba4-bc0b-e7f3b9400192
+          STG_NATION20: 6b371a82-67b4-48a2-92d1-cbfd4695874a
         customSQL:
           customSQL: ""
-        dependencies: []
+        dependencies:
+          - locationName: WORK
+            nodeName: STG_NATION20
         join:
-          joinCondition: FROM {{ ref('WORK', 'STG_NATION3') }} "STG_NATION3"
+          joinCondition: FROM {{ ref('WORK', 'STG_NATION20') }} "STG_NATION20"
         name: STG_NATION32
         noLinkRefs: []
   name: STG_NATION32
