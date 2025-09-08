@@ -76,12 +76,11 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          STG_NATION3: dae62825-3224-4ba4-bc0b-e7f3b9400192
         customSQL:
           customSQL: ""
-        dependencies:
-          - locationName: WORK
-            nodeName: STG_NATION3
+        dependencies: []
         join:
           joinCondition: FROM {{ ref('WORK', 'STG_NATION3') }} "STG_NATION3"
         name: STG_NATION32

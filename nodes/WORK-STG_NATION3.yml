@@ -76,14 +76,21 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          STG_NATION20: 6b371a82-67b4-48a2-92d1-cbfd4695874a
+          STG_NATION32: 7796ff8e-8de4-4f40-bd4b-7f14b66be8ac
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: WORK
-            nodeName: STG_NATION1
+            nodeName: STG_NATION20
+          - locationName: WORK
+            nodeName: STG_NATION32
         join:
-          joinCondition: FROM {{ ref('WORK', 'STG_NATION1') }} "STG_NATION1"
+          joinCondition: |-
+            FROM {{ ref('WORK', 'STG_NATION20') }} "STG_NATION20"
+            INNER JOIN {{ ref('WORK', 'STG_NATION32') }} "STG_NATION32"
+            ON "STG_NATION20"."N_COMMENT" = "STG_NATION32"."N_COMMENT"
         name: STG_NATION3
         noLinkRefs: []
   name: STG_NATION3
