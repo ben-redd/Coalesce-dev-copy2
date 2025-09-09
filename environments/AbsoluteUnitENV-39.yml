@@ -1,8 +1,0 @@
-fileVersion: 1
-id: "39"
-mappingDefinitions:
-  ENV_PRESYNC:
-    database: ""
-    schema: ""
-name: Absolute Unit ENV
-type: Environment
