@@ -4,5 +4,5 @@ mappingDefinitions:
   ENV_PRESYNC:
     database: ""
     schema: ""
-name: Advanced Deploy Testing
+name: Advanced Deploy Testing with an extra long name that should get truncated
 type: Environment
