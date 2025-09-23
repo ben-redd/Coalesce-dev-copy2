@@ -1,6 +1,0 @@
-excludeSelector: ""
-fileVersion: 1
-id: "78"
-includeSelector: "{ location: WORK name: STG_NATION3 } OR { location: WORK name: STG_NATION32 } OR { location: WORK name: STG_NATION20 }"
-name: Circular Dependencies
-type: Job

@@ -15,7 +15,12 @@ operation:
   locationName: WORK
   materializationType: table
   metadata:
-    appliedNodeTests: []
+    appliedNodeTests:
+      - continueOnFailure: true
+        description: ""
+        name: Test
+        runOrder: After
+        templateString: SELECT * FROM {{ ref_no_link('WORK', 'STG_REGION3') }} WHERE R_REGIONKEY < 0
     columns:
       - appliedColumnTests: {}
         columnReference:
