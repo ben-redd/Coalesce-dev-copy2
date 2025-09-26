@@ -1,11 +1,11 @@
-{% for test in node.tests if config.testsEnabled %} !ds;lafkj::";;;";
+{% for test in node.tests if config.testsEnabled %}
         {% if test.runOrder == 'Before' %}
             {{ test_stage(test.name, test.continueOnFailure) }}
             {{ test.templateString }}
         {% endif %}
     {% endfor %}
 
-{% if node.materializationType == 'table' %}
+{% if node.materializationType == 'table' '%}
 	{% if config.preSQL %}
 		{{ stage('Pre-SQL') }}
 		{{ config.preSQL }}
