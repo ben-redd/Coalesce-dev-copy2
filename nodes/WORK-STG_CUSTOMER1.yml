@@ -30,7 +30,7 @@ operation:
           - columnReferences:
               - columnCounter: a111e814-fe28-4d9c-96fd-fa8af6a08c30
                 stepCounter: 76703b2f-51bb-48d3-acd6-55c5adbee05d
-            transform: ""
+            transform: "!invalid transform"
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 799002ea-baa0-4174-90f8-4544bf9831d6
@@ -146,7 +146,7 @@ operation:
   name: STG_CUSTOMER1
   overrideSQL: false
   schema: ""
-  sqlType: "128"
+  sqlType: Stage
   type: sql
   version: 1
 type: Node
