@@ -75,7 +75,7 @@ operation:
   name: STG_REGION1
   overrideSQL: false
   schema: ""
-  sqlType: Stage
+  sqlType: "154"
   type: sql
   version: 1
 type: Node
