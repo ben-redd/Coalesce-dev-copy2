@@ -8,7 +8,11 @@ operation:
     testsEnabled: true
   database: ""
   deployEnabled: true
-  description: ""
+  description: |-
+    AI-Generated: PURPOSE: THE E1_CV_BALANCE TABLE PROVIDES AGGREGATED ACCOUNT BALANCE INFORMATION
+    FILTERED SPECIFICALLY FOR DOCUMENT TYPE 'CV' AND LEDGER TYPE 'AA'. IT IS
+    PRIMARILY USED FOR FINANCIAL ANALYSIS, REPORTING, AND RECONCILIATION OF ACCOUNT
+    BALANCES AT THE BUSINESS UNIT AND SUBSIDIARY LEVEL.
   isMultisource: false
   locationName: WORK
   materializationType: table
