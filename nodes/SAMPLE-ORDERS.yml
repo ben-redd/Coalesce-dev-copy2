@@ -2,7 +2,7 @@ fileVersion: 1
 id: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
 name: ORDERS
 operation:
-  database: ""
+  database: COALESCE_SAMPLE_DATABASE
   deployEnabled: true
   description: |-
     Orders are not present for all customers. In fact, one-third of the customers do not have any order in
@@ -147,7 +147,7 @@ operation:
         primaryKey: false
         uniqueKey: false
   name: ORDERS
-  schema: ""
+  schema: TPCH_SF001
   sqlType: Source
   type: sourceInput
   version: 1

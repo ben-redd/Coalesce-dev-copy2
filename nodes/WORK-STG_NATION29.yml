@@ -8,7 +8,7 @@ operation:
     preSQL: ""
     testsEnabled: true
     truncateBefore: true
-  database: ""
+  database: BEN_EDW
   deployEnabled: true
   description: ""
   isMultisource: false
@@ -73,6 +73,23 @@ operation:
               - columnCounter: 52c1b281-e9e9-4374-bb2d-fe2e80673e5f
                 stepCounter: 176d568b-cd6b-42a6-bb74-efeaa9b2147b
             transform: ""
+      - acceptedValues:
+          strictMatch: false
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 50e759b5-b916-4301-ac51-de393c6c3ae3
+          stepCounter: b528f663-182d-440e-bcee-f04bb80f5459
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: TEST_COL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4b289992-f712-4b27-88c2-8355da64a826
+                stepCounter: 176d568b-cd6b-42a6-bb74-efeaa9b2147b
+            transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
@@ -89,7 +106,7 @@ operation:
         noLinkRefs: []
   name: STG_NATION29
   overrideSQL: false
-  schema: ""
+  schema: DEV_7.1.0_MAIN_WS
   sqlType: Stage
   type: sql
   version: 1

@@ -5,7 +5,7 @@ operation:
   config:
     insertStrategy: UNION
     selectDistinct: false
-  database: ""
+  database: BEN_EDW
   deployEnabled: true
   description: ""
   isMultisource: false
@@ -109,7 +109,6 @@ operation:
         dataType: NUMBER
         defaultValue: ""
         description: ""
-        keyColumnType: None
         name: S_TEST
         nullable: true
         sourceColumnReferences:
@@ -117,7 +116,6 @@ operation:
               - columnCounter: "0"
                 stepCounter: "0"
             transform: ""
-        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
@@ -133,7 +131,7 @@ operation:
         noLinkRefs: []
   name: STANDARD_VIEW1
   overrideSQL: false
-  schema: ""
+  schema: DEV_7.1.0_MAIN_WS
   sqlType: View
   type: sql
   version: 1

@@ -5,7 +5,7 @@ operation:
   config:
     insertStrategy: UNION
     selectDistinct: false
-  database: ""
+  database: BEN_EDW
   deployEnabled: true
   description: ""
   isMultisource: false
@@ -114,7 +114,7 @@ operation:
         noLinkRefs: []
   name: TEMP_ADVANCED_VIEW
   overrideSQL: false
-  schema: ""
+  schema: DEV_7.1.0_MAIN_WS
   sqlType: "149"
   type: sql
   version: 1

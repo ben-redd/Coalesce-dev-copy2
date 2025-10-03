@@ -8,7 +8,7 @@ operation:
     preSQL: ""
     testsEnabled: true
     truncateBefore: true
-  database: ""
+  database: BEN_EDW
   deployEnabled: true
   description: ""
   isMultisource: false
@@ -78,10 +78,31 @@ operation:
         name: GH
         nullable: true
         sourceColumnReferences: []
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 521e4637-991c-4eba-88bc-01fb4c2073f8
+          stepCounter: 3e4578bf-68b6-4d6f-bb60-57f5ce8233b3
+        config: {}
+        dataType: NUMBER
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: TEST_COL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: ROUND()
+        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          NATION: 6564024b-8ea3-491b-8f0c-bf89a3252c88
         customSQL:
           customSQL: ""
         dependencies:
@@ -93,7 +114,7 @@ operation:
         noLinkRefs: []
   name: STG_NATION
   overrideSQL: false
-  schema: ""
+  schema: DEV_7.1.0_MAIN_WS
   sqlType: Stage
   type: sql
   version: 1

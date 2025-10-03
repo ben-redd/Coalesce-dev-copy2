@@ -2,7 +2,7 @@ fileVersion: 1
 id: d7cf24ea-789e-4766-9739-c33cc8aa5901
 name: LINEITEM
 operation:
-  database: ""
+  database: COALESCE_SAMPLE_DATABASE
   deployEnabled: true
   description: ""
   locationName: SAMPLE
@@ -320,7 +320,7 @@ operation:
         transform: ""
         uniqueKey: false
   name: LINEITEM
-  schema: ""
+  schema: TPCH_SF001
   sqlType: Source
   type: sourceInput
   version: 1

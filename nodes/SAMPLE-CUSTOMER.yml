@@ -2,7 +2,7 @@ fileVersion: 1
 id: 5f46abb3-1e1c-4dd4-8d51-ba295bd273a1
 name: CUSTOMER
 operation:
-  database: ""
+  database: COALESCE_SAMPLE_DATABASE
   deployEnabled: true
   description: ""
   locationName: SAMPLE
@@ -161,7 +161,7 @@ operation:
         transform: ""
         uniqueKey: false
   name: CUSTOMER
-  schema: ""
+  schema: TPCH_SF001
   sqlType: Source
   type: sourceInput
   version: 1

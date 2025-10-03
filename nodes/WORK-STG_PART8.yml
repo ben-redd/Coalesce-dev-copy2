@@ -1,6 +1,6 @@
 fileVersion: 1
-id: 6d3a8c09-4e6c-4f27-8bd7-be56596c2aed
-name: STG_PART
+id: 444e0cdf-9ac1-4376-b736-ec6e24185703
+name: STG_PART8
 operation:
   config:
     insertStrategy: INSERT
@@ -19,11 +19,15 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: eb9e9650-2e20-41de-b761-d5804a023551
-          stepCounter: 6d3a8c09-4e6c-4f27-8bd7-be56596c2aed
+          columnCounter: 5a9d88cf-4986-49ae-86d3-b5dae06bc1c7
+          stepCounter: 444e0cdf-9ac1-4376-b736-ec6e24185703
         config: {}
         dataType: NUMBER(38,0)
-        description: don't use single quotes (') in the dscription
+        description: |-
+          AI-Generated: PURPOSE: THE E1_CV_BALANCE TABLE PROVIDES AGGREGATED ACCOUNT BALANCE INFORMATION
+          FILTERED SPECIFICALLY FOR DOCUMENT TYPE 'CV' AND LEDGER TYPE 'AA'. IT IS
+          PRIMARILY USED FOR FINANCIAL ANALYSIS, REPORTING, AND RECONCILIATION OF ACCOUNT
+          BALANCES AT THE BUSINESS UNIT AND SUBSIDIARY LEVEL.
         name: P_PARTKEY
         nullable: false
         sourceColumnReferences:
@@ -33,8 +37,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 9ff8eb0f-7d3a-4006-b16d-dabc61dd99e4
-          stepCounter: 6d3a8c09-4e6c-4f27-8bd7-be56596c2aed
+          columnCounter: 4128d252-7287-4041-b5d8-a996a5a39700
+          stepCounter: 444e0cdf-9ac1-4376-b736-ec6e24185703
         config: {}
         dataType: VARCHAR(55)
         description: ""
@@ -47,8 +51,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 51a0f55c-0e68-47b4-a469-77c201b76c7d
-          stepCounter: 6d3a8c09-4e6c-4f27-8bd7-be56596c2aed
+          columnCounter: 87c81fbb-d2a0-4aea-8a26-9f03211cbfda
+          stepCounter: 444e0cdf-9ac1-4376-b736-ec6e24185703
         config: {}
         dataType: VARCHAR(25)
         description: ""
@@ -61,8 +65,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 3eb3a078-ff2c-4a31-aace-5099163c5011
-          stepCounter: 6d3a8c09-4e6c-4f27-8bd7-be56596c2aed
+          columnCounter: a34c9052-f11c-46d6-af3a-b97382708c17
+          stepCounter: 444e0cdf-9ac1-4376-b736-ec6e24185703
         config: {}
         dataType: VARCHAR(10)
         description: ""
@@ -75,8 +79,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: eab83d8d-3a56-4729-a716-c636373f5244
-          stepCounter: 6d3a8c09-4e6c-4f27-8bd7-be56596c2aed
+          columnCounter: 4230e614-e977-40dd-9a0e-79b3c1a8113c
+          stepCounter: 444e0cdf-9ac1-4376-b736-ec6e24185703
         config: {}
         dataType: VARCHAR(25)
         description: ""
@@ -89,8 +93,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: ddc261d2-f261-4ad6-ae9c-7f3fd618d73b
-          stepCounter: 6d3a8c09-4e6c-4f27-8bd7-be56596c2aed
+          columnCounter: b92da426-a75c-4f7c-a83d-20618823b027
+          stepCounter: 444e0cdf-9ac1-4376-b736-ec6e24185703
         config: {}
         dataType: NUMBER(38,0)
         description: ""
@@ -103,8 +107,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: b7ca1568-d5b1-4d34-9b66-e4473c031b19
-          stepCounter: 6d3a8c09-4e6c-4f27-8bd7-be56596c2aed
+          columnCounter: bb0a9763-4312-4f19-9294-1fca8281e536
+          stepCounter: 444e0cdf-9ac1-4376-b736-ec6e24185703
         config: {}
         dataType: VARCHAR(10)
         description: ""
@@ -117,8 +121,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 56f35a4f-760f-4e74-897e-2f9b2a5d2373
-          stepCounter: 6d3a8c09-4e6c-4f27-8bd7-be56596c2aed
+          columnCounter: f963499b-0e96-4393-bad0-91b0c71296c0
+          stepCounter: 444e0cdf-9ac1-4376-b736-ec6e24185703
         config: {}
         dataType: NUMBER(12,2)
         description: ""
@@ -131,8 +135,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 88bad2f4-650d-41a1-85be-63fd03021c8d
-          stepCounter: 6d3a8c09-4e6c-4f27-8bd7-be56596c2aed
+          columnCounter: 75c142cc-aa46-4aa6-8364-55b6def0a663
+          stepCounter: 444e0cdf-9ac1-4376-b736-ec6e24185703
         config: {}
         dataType: VARCHAR(23)
         description: ""
@@ -144,9 +148,13 @@ operation:
                 stepCounter: da2021c5-f522-4486-89cd-2b526c4d3f96
             transform: ""
     cteString: ""
+    description: ""
+    destinationName: ""
     enabledColumnTestIDs: []
+    materializationOption: ""
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          PART: da2021c5-f522-4486-89cd-2b526c4d3f96
         customSQL:
           customSQL: ""
         dependencies:
@@ -154,11 +162,11 @@ operation:
             nodeName: PART
         join:
           joinCondition: FROM {{ ref('SAMPLE', 'PART') }} "PART"
-        name: STG_PART
+        name: STG_PART8
         noLinkRefs: []
-  name: STG_PART
+  name: STG_PART8
   overrideSQL: false
-  schema: DEV_7.1.0_MAIN_WS
+  schema: 7.1_Env
   sqlType: Stage
   type: sql
   version: 1

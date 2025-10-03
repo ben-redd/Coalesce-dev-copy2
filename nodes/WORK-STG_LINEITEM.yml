@@ -8,7 +8,7 @@ operation:
     preSQL: SELECT 1 FROM {{ ref('WORK', 'STG_LINEITEM') }} LIMIT 100
     testsEnabled: true
     truncateBefore: true
-  database: ""
+  database: BEN_EDW
   deployEnabled: true
   description: ""
   isMultisource: false
@@ -265,7 +265,7 @@ operation:
         noLinkRefs: []
   name: STG_LINEITEM
   overrideSQL: false
-  schema: ""
+  schema: DEV_7.1.0_MAIN_WS
   sqlType: Stage
   type: sql
   version: 1

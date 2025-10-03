@@ -5,7 +5,7 @@ operation:
   config:
     insertStrategy: UNION
     selectDistinct: false
-  database: ""
+  database: BEN_EDW
   deployEnabled: true
   description: ""
   isMultisource: false
@@ -142,7 +142,7 @@ operation:
         noLinkRefs: []
   name: V_CUSTOMER3
   overrideSQL: false
-  schema: ""
+  schema: DEV_7.1.0_MAIN_WS
   sqlType: View
   type: sql
   version: 1
