@@ -7,9 +7,11 @@ metadata:
   nodeMetadataSpec: |
     capitalized: Copy of Stage
     short: STG
+    plural: Stages
     tagColor: '#2EB67D'
 
     config:
+    -
     - groupName: Options
       items:
       - type: materializationSelector
