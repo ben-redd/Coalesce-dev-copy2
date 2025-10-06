@@ -11,7 +11,6 @@ metadata:
     tagColor: '#2EB67D'
 
     config:
-    -
     - groupName: Options
       items:
       - type: materializationSelector
