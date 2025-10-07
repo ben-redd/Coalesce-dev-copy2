@@ -1,0 +1,5 @@
+fileVersion: 1
+id: "184"
+mappingDefinitions: {}
+name: Query result batch truncation presync testing
+type: Environment

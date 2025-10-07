@@ -8,9 +8,9 @@ operation:
     preSQL: ""
     testsEnabled: true
     truncateBefore: true
-  database: ""
+  database: BEN_EDW
   deployEnabled: true
-  description: ""
+  description: Set description with API
   isMultisource: false
   locationName: WORK
   materializationType: table
@@ -74,7 +74,10 @@ operation:
                 stepCounter: 6a005be9-b5f7-4798-acb1-2606756a023d
             transform: ""
     cteString: ""
+    description: ""
+    destinationName: ""
     enabledColumnTestIDs: []
+    materializationOption: ""
     sourceMapping:
       - aliases:
           STG_NATION40: 6a005be9-b5f7-4798-acb1-2606756a023d
@@ -89,7 +92,7 @@ operation:
         noLinkRefs: []
   name: STG_NATION44
   overrideSQL: false
-  schema: ""
+  schema: DEV_7.1.0_MAIN_WS
   sqlType: Stage
   type: sql
   version: 1

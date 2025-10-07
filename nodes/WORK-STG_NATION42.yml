@@ -10,7 +10,7 @@ operation:
     truncateBefore: true
   database: BEN_EDW
   deployEnabled: true
-  description: ""
+  description: Creates the STG_NATION42 table, truncates it, and then loads data into it from the STG_NATION21 table.
   isMultisource: false
   locationName: WORK
   materializationType: table
