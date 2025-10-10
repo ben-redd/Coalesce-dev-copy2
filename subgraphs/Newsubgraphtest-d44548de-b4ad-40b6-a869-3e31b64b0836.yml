@@ -4,8 +4,6 @@ name: New subgraph test
 steps:
   - 0a85b758-583a-4224-82f7-fd46d981539d
   - 224b1075-04c6-4499-838d-3a83de2e140d
-  - 266f869a-3a5e-44b5-9481-6891e81a36d5
-  - 46350b56-8271-4323-91ae-a84b1b19e44f
   - 5f46abb3-1e1c-4dd4-8d51-ba295bd273a1
   - b52204cd-fe8b-46bf-838b-db03076772fa
   - c85e02e9-19ba-49f0-8506-d3efabb0eada
