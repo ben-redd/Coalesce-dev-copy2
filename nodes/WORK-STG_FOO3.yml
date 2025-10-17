@@ -114,7 +114,7 @@ operation:
           - columnReferences:
               - columnCounter: 4cde43b3-bcb4-4f75-9b3d-be3bb98ac861
                 stepCounter: acc9ed06-8836-4ccc-adb6-ec997b32b028
-            transform: ""
+            transform: UPPER("STG_FOO"."S_COMMENT")
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
