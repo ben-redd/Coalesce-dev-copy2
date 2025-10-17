@@ -1,6 +1,6 @@
 fileVersion: 1
 id: 7630c59d-7319-4a04-939a-a9e6a410e31d
-name: AHHHHHHHHH_WTF_IS_GOING_ON
+name: AHHHHHHHHH_WTF_IS_GOING_ON_EDIT
 operation:
   config:
     insertStrategy: INSERT
@@ -127,9 +127,9 @@ operation:
             nodeName: STG_FOO3
         join:
           joinCondition: FROM {{ ref('WORK', 'STG_FOO3') }} "STG_FOO3"
-        name: AHHHHHHHHH_WTF_IS_GOING_ON
+        name: AHHHHHHHHH_WTF_IS_GOING_ON_EDIT
         noLinkRefs: []
-  name: AHHHHHHHHH_WTF_IS_GOING_ON
+  name: AHHHHHHHHH_WTF_IS_GOING_ON_EDIT
   overrideSQL: false
   schema: ""
   sqlType: Stage
