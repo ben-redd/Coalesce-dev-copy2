@@ -115,6 +115,26 @@ operation:
               - columnCounter: 4cde43b3-bcb4-4f75-9b3d-be3bb98ac861
                 stepCounter: acc9ed06-8836-4ccc-adb6-ec997b32b028
             transform: UPPER("STG_FOO"."S_COMMENT")
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b360e444-eeec-4a18-b867-95b74744ad2a
+          stepCounter: 2043f2a7-d15e-41d4-a611-b5a7f4c561b9
+        config: {}
+        dataType: NUMBER
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: S_TEST_COL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: ""
+        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
