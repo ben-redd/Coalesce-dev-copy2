@@ -1,6 +1,6 @@
 fileVersion: 1
 id: 630187dc-05cd-4d74-a827-e932b9691166
-name: STG_FOO2
+name: STG_FOO2_EDIT
 operation:
   config:
     insertStrategy: INSERT
@@ -127,9 +127,9 @@ operation:
             nodeName: FOO
         join:
           joinCondition: FROM {{ ref('WORK', 'FOO') }} "FOO"
-        name: STG_FOO2
+        name: STG_FOO2_EDIT
         noLinkRefs: []
-  name: STG_FOO2
+  name: STG_FOO2_EDIT
   overrideSQL: false
   schema: DEV_7.1.0_MAIN_WS
   sqlType: Stage
