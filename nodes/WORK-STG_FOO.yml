@@ -3,17 +3,56 @@ id: acc9ed06-8836-4ccc-adb6-ec997b32b028
 name: STG_FOO
 operation:
   config:
-    insertStrategy: INSERT
+    clusterKey: false
+    clusterKeyConfig:
+      items:
+        - columnName:
+            columnCounter: 3c156940-7f40-4442-a437-4b635ce697f8
+            stepCounter: acc9ed06-8836-4ccc-adb6-ec997b32b028
+    clusterKeyConfigExpressions:
+      items:
+        - columnNameExpressions:
+            columnCounter: 5225d1d6-3d72-4bbc-a7b9-d9ad6e353d1e
+            stepCounter: acc9ed06-8836-4ccc-adb6-ec997b32b028
+          sqlExpression: ex. trunc("<column_name>", -5)
+    clusterKeyExpressions: false
+    groupByAll: false
+    insertStrategy: UNION
+    insertZeroKey: false
+    myTabularConfig:
+      items:
+        - myColumnDropdown:
+            columnCounter: 95361cb6-40d2-46b2-97df-63a894818678
+            stepCounter: acc9ed06-8836-4ccc-adb6-ec997b32b028
+          myDropdown: option2
+          myTextbox: test
+          myToggleButton2: true
+        - myColumnDropdown:
+            columnCounter: bfad2ce9-662d-4059-a8ed-d1dc9ceec22b
+            stepCounter: acc9ed06-8836-4ccc-adb6-ec997b32b028
+          myDropdown: option1
+          myTextbox: test
+          myToggleButton2: false
+    orderby: true
+    orderbycolumn:
+      items:
+        - sortColName:
+            columnCounter: 5225d1d6-3d72-4bbc-a7b9-d9ad6e353d1e
+            stepCounter: acc9ed06-8836-4ccc-adb6-ec997b32b028
+          sortOrder: desc
     postSQL: ""
     preSQL: ""
+    refTest: ""
+    selectDistinct: false
     testsEnabled: true
     truncateBefore: true
+    updateStrategy: ""
   database: BEN_EDW
-  deployEnabled: true
+  deployEnabled: false
   description: ""
   isMultisource: false
   locationName: WORK
-  materializationType: table
+  materializationType: view
   metadata:
     appliedNodeTests: []
     columns:
@@ -120,7 +159,19 @@ operation:
     sourceMapping:
       - aliases: {}
         customSQL:
-          customSQL: ""
+          customSQL: |-
+            {{ stage('Override Create SQL') }}
+            	CREATE OR REPLACE VIEW {{ ref('WORK', 'STG_FOO')}} AS (
+            		SELECT 
+             "S_SUPPKEY" AS "S_SUPPKEY",
+             "S_NAME" AS "S_NAME",
+             "S_ADDRESS" AS "S_ADDRESS",
+             "S_NATIONKEY" AS "S_NATIONKEY",
+             "S_PHONE" AS "S_PHONE",
+             "S_ACCTBAL" AS "S_ACCTBAL",
+             "S_COMMENT" AS "S_COMMENT"
+             FROM {{ ref('WORK', 'FOO') }}
+            	)
         dependencies:
           - locationName: WORK
             nodeName: FOO
