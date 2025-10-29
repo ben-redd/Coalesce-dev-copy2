@@ -2,7 +2,7 @@ fileVersion: 1
 id: 6564024b-8ea3-491b-8f0c-bf89a3252c88
 name: NATION
 operation:
-  database: COALESCE_SAMPLE_DATABASE
+  database ""
   deployEnabled: true
   description: ""
   locationName: SAMPLE
@@ -69,7 +69,7 @@ operation:
         primaryKey: false
         uniqueKey: false
   name: NATION
-  schema: TPCH_SF001
+  schema: ""
   sqlType: Source
   type: sourceInput
   version: 1

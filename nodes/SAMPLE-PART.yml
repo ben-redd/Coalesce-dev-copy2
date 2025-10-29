@@ -2,7 +2,7 @@ fileVersion: 1
 id: da2021c5-f522-4486-89cd-2b526c4d3f96
 name: PART
 operation:
-  database: COALESCE_SAMPLE_DATABASE
+  database ""
   deployEnabled: true
   description: ""
   locationName: SAMPLE
@@ -144,7 +144,7 @@ operation:
         primaryKey: false
         uniqueKey: false
   name: PART
-  schema: TPCH_SF001
+  schema: ""
   sqlType: Source
   type: sourceInput
   version: 1

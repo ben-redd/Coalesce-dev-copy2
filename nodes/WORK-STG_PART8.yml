@@ -170,7 +170,7 @@ operation:
         noLinkRefs: []
   name: STG_PART8
   overrideSQL: false
-  schema: 7.1_Env
+  schema: ""
   sqlType: Stage
   type: sql
   version: 1

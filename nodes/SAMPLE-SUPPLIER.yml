@@ -2,7 +2,7 @@ fileVersion: 1
 id: 04d9ed46-393b-4da7-bcb5-5c9589a1c662
 name: SUPPLIER
 operation:
-  database: COALESCE_SAMPLE_DATABASE
+  database ""
   deployEnabled: true
   description: ""
   locationName: SAMPLE
@@ -114,7 +114,7 @@ operation:
         primaryKey: false
         uniqueKey: false
   name: SUPPLIER
-  schema: TPCH_SF001
+  schema: ""
   sqlType: Source
   type: sourceInput
   version: 1
