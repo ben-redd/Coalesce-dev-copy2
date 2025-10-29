@@ -8,7 +8,7 @@ operation:
     preSQL: ""
     testsEnabled: true
     truncateBefore: true
-  database: BEN_EDW
+  database: ""
   deployEnabled: true
   description: ""
   isMultisource: false

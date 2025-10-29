@@ -47,7 +47,7 @@ operation:
     testsEnabled: true
     truncateBefore: true
     updateStrategy: ""
-  database: BEN_EDW
+  database: ""
   deployEnabled: false
   description: ""
   isMultisource: false
@@ -181,7 +181,7 @@ operation:
         noLinkRefs: []
   name: STG_FOO
   overrideSQL: false
-  schema: DEV_7.1.0_MAIN_WS
+  schema: ""
   sqlType: Stage
   type: sql
   version: 1

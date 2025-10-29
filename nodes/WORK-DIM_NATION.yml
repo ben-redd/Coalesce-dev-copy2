@@ -6,7 +6,7 @@ operation:
     postSQL: ""
     preSQL: ""
     testsEnabled: true
-  database: BEN_EDW
+  database: ""
   deployEnabled: true
   description: ""
   isMultisource: false
@@ -267,7 +267,7 @@ operation:
         noLinkRefs: []
   name: DIM_NATION
   overrideSQL: false
-  schema: DEV_7.1.0_MAIN_WS
+  schema: ""
   sqlType: Dimension
   type: sql
   version: 1

@@ -8,7 +8,7 @@ operation:
     preSQL: ""
     testsEnabled: true
     truncateBefore: true
-  database: BEN_EDW
+  database: ""
   deployEnabled: true
   description: ""
   isMultisource: false
@@ -243,7 +243,7 @@ operation:
         noLinkRefs: []
   name: STG_NATION_REGION_ORDERS10
   overrideSQL: false
-  schema: DEV_7.1.0_MAIN_WS
+  schema: ""
   sqlType: Stage
   type: sql
   version: 1
