@@ -2,7 +2,7 @@ fileVersion: 1
 id: 04d9ed46-393b-4da7-bcb5-5c9589a1c662
 name: SUPPLIER
 operation:
-  database ""
+  database: ""
   deployEnabled: true
   description: ""
   locationName: SAMPLE

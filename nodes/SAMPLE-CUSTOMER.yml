@@ -2,7 +2,7 @@ fileVersion: 1
 id: 5f46abb3-1e1c-4dd4-8d51-ba295bd273a1
 name: CUSTOMER
 operation:
-  database ""
+  database: ""
   deployEnabled: true
   description: ""
   locationName: SAMPLE
