@@ -66,7 +66,7 @@ operation:
         config: {}
         dataType: VARCHAR(152)
         description: ""
-        name: N_COMMENT
+        name: ""
         nullable: true
         sourceColumnReferences:
           - columnReferences:
