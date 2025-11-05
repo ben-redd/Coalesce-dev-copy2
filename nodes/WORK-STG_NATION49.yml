@@ -64,14 +64,12 @@ operation:
           columnCounter: 216c969a-d330-451f-a29f-c01f81da8d18
           stepCounter: 95ced18b-c8d7-480f-9e04-137e3eb1cb34
         config: {}
-        dataType: VARCHAR(152)
+        dataType: ""
         description: ""
-        name: ""
+        name: N_COMMENT
         nullable: true
         sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 7d64b9cf-b43c-414f-883f-8f301d68f088
-                stepCounter: ec1c7432-6663-496e-9b6c-a9deb763f34e
+          - columnReferences: []
             transform: ""
     cteString: ""
     enabledColumnTestIDs: []
