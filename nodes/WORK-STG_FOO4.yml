@@ -36,7 +36,7 @@ operation:
           columnCounter: 0f3b9d88-788d-4886-8d2d-1d0f6d1216b6
           stepCounter: fce5c6f2-a875-4178-928c-9c42777911d9
         config: {}
-        dataType: VARCHAR(50)
+        dataType: VARCHAR(100)
         description: ""
         name: S_NAME
         nullable: false
