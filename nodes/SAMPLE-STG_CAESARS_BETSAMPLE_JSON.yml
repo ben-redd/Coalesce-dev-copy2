@@ -1,0 +1,4158 @@
+fileVersion: 1
+id: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+name: STG_CAESARS_BETSAMPLE_JSON
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6712fbfb-aaf8-4ca1-b423-4d25ad7fe68d
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: be-topic-name
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3e60fd4d-6e9f-4947-86ca-e056116f15fb
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_offset
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 73ffdbc7-f94f-4588-9eb9-88a5f3eee97c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_parition
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: da2262b9-64f5-4915-9554-828be51acce8
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_timestamp
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ed2195f4-c7f4-45d6-916d-dded3fe67e8a
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_accountId_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9c5baea5-d317-4437-860e-e0b79a74d05f
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_accountName_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3d1df467-595b-4a0e-9096-bb33466297d2
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_accountType_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 52ed2346-fa31-41ee-a94e-f6149d91ff3f
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_accrueRewardPoints_boolean
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4cb7d153-8bc8-4030-9d7f-30c8f694fc0f
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_affiliateId_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b3adb495-d56b-45a3-9c58-4a9b8c610f1b
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_antePost_boolean
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2dd4d6a5-25a5-48c6-a38b-7356fa8fc14b
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_assetFlows_com.whbettingengine.betting.messaging.AssetFlow_balanceDelta_long
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 158b57c8-1f18-480b-95e0-51147afe3ef6
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_assetFlows_com.whbettingengine.betting.messaging.AssetFlow_fromVoidedBet_boolean
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b42f2235-a26c-4506-baff-fd5d217e9910
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_assetFlows_com.whbettingengine.betting.messaging.AssetFlow_id_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 69d5ab9a-4245-4c5d-9cba-dd3d0cdb5a7a
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_assetFlows_com.whbettingengine.betting.messaging.AssetFlow_statusReason_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f5b19323-b130-44e0-b342-118c95465859
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_assetFlows_com.whbettingengine.betting.messaging.AssetFlow_status_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5e0a95ec-a62c-4238-8822-83562f53b9c1
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_assetFlows_com.whbettingengine.betting.messaging.AssetFlow_type_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cc056576-a34f-492f-96bd-2335c378c0c7
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_assetFlows_com.whbettingengine.betting.messaging.AssetFlow_walletRequestId_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cf3c9a32-69af-45b2-b13c-0eb54df10ab8
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_assetFlows_com.whbettingengine.betting.messaging.AssetFlow_walletTransactionId_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 04d0caba-1956-43dc-be32-a3017f46fbcb
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_betId_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 85262fb8-93a9-4460-921a-06c96581759d
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_betPrice
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5f0ea9a1-4ea6-4dec-b5fe-945e72adb62b
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_betSlipId_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f2308daf-2d69-4365-8253-ac3227fdc746
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_betTypeFamily_com.whbettingengine.betting.messaging.BetTypeFamily_accumulator_com.whbettingengine.betting.messaging.AccumulatorBetType_dummy
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8e89a05e-7de1-4ba2-b631-af7dbf5547f4
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_betTypeFamily_com.whbettingengine.betting.messaging.BetTypeFamily_combination
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bc971271-5e20-403d-b5e1-2e8fcd0ee91c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_betTypeFamily_com.whbettingengine.betting.messaging.BetTypeFamily_combinationForecastTricast
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3ddc8f96-6d0c-4923-b1ff-de1ca5f36c42
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_betTypeFamily_com.whbettingengine.betting.messaging.BetTypeFamily_permutation
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e60b4734-174d-4ec4-a4c3-5bc8e3979d14
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_betTypeFamily_com.whbettingengine.betting.messaging.BetTypeFamily_straightForecast
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d2410eec-551a-49dc-ab6e-79262fb67014
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_betTypeFamily_com.whbettingengine.betting.messaging.BetTypeFamily_teaser
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 318e2988-64af-4af0-b72d-625237a29b14
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_betType_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7faf28a6-9522-4753-b520-847c46283dd3
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_blockPayoutReason
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: af5bb57a-5db1-481b-bc94-25babbbfd445
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_blockPayout_boolean
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b8f357e7-d481-4e31-af45-93a01079d8a6
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_bonuses
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dd107e7b-8e38-4369-931b-ccc02cae21ae
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_cancellation_metadata
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: eb391e00-2b4b-4d2a-a58b-0d1bc0a50665
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_cancelRequestedBy
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c090c96b-32a2-462e-88ad-a880f4d0a6b2
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_cashedOut_boolean
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 65e4f3ba-c009-404e-a4d9-544547b01ebe
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: ARRAY
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_changedFields
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 843463f6-4d5a-408e-911c-aceaaa984291
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_channel_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 921f3faf-3ee4-4e93-9a1a-66464a4030ef
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_comment
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 006c9bd4-be11-4da9-b263-295f521dca2b
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_country
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2ad25ee8-4319-4b5f-95c7-dc2c23e92cc0
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_currency_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 07ad555b-822e-4cac-85cd-cc6b64b86482
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: ARRAY
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_duplicateBets
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 17e8b66f-7ef9-41d9-b05b-c68141f4b261
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_eachWay_boolean
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 20ac16c0-a20d-4dc1-8ca4-19b66ab60e12
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_externalAccountId_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 133b85be-d224-41e6-9d5e-bd4e47ec0e81
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_freebetStake
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 65821dcf-8571-4380-81df-ab19f7b41c34
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_freebetTokenId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4b1daca9-177b-436c-a823-b50dfe5b1b1d
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_header_com.whbettingengine.commons.messaging.Header_clientRequestId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1bc1463d-efcf-4af5-a6eb-4a65cb3ba430
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_header_com.whbettingengine.commons.messaging.Header_id_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8146537e-e956-47f0-9d60-61a938b8bf24
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_header_com.whbettingengine.commons.messaging.Header_type_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 41ea7714-7ac4-4676-9b3b-d0049b147250
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_header_com.whbettingengine.commons.messaging.Header_universe_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9ced044c-29fa-47d3-b16c-f97f291f66df
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_header_com.whbettingengine.commons.messaging.Header_when_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 32815c08-7a74-470d-96ca-4c68047f2255
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_header_com.whbettingengine.commons.messaging.Header_who_com.whbettingengine.commons.messaging.Subject_id_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f4d24ee7-5c2b-4769-9ae6-edb2df5e478b
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_header_com.whbettingengine.commons.messaging.Header_who_com.whbettingengine.commons.messaging.Subject_ip_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1910dc77-a556-42eb-bfd4-722d6f3d3dbf
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_header_com.whbettingengine.commons.messaging.Header_who_com.whbettingengine.commons.messaging.Subject_name_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ae2b82d0-90be-4aa0-8cd0-e2bb58cd8a79
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_header_com.whbettingengine.commons.messaging.Header_who_com.whbettingengine.commons.messaging.Subject_type_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 357b6843-1d15-4eab-bdb1-c7afed290757
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_header_com.whbettingengine.commons.messaging.Header_who_com.whbettingengine.commons.messaging.Subject_universe_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8f26d5b6-4a4f-4478-887b-d5e30c44e5ad
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_ip
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 14b5e0b2-a763-4157-a0eb-348ed4dd06b8
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_competition_com.whbettingengine.betting.messaging.Reference_id_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e259f771-0600-4b65-822f-e2f232409ed9
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_competition_com.whbettingengine.betting.messaging.Reference_name_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 507308df-e523-49e1-ad6d-21f94c353f6d
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_competition_com.whbettingengine.betting.messaging.Reference_url_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c3fc9b01-00ae-4cd7-b619-e2d1d752b13a
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: ARRAY
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_customerNotes
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 576f9cf0-199c-4b30-8606-545286331eea
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_eachWayTerms
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0c169654-9629-472e-9a17-0fcb83878b9e
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_eventCountry_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0173f73a-6f04-423e-a9df-72dd3d74ec7c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_eventStartTime
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1d555269-f185-4506-84e7-91fc970365c0
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_event_com.whbettingengine.betting.messaging.Reference_id_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c06fbbfb-d56c-4fe8-b4ae-c8ebdc5a9f6d
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_event_com.whbettingengine.betting.messaging.Reference_name_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bbfc7624-77c1-4a6a-9cf3-928b1babfb8f
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_event_com.whbettingengine.betting.messaging.Reference_url_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6f14fcb2-d00b-4afc-ba1a-9a0d7f5922e7
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_id_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 608d8c03-b49d-4299-a26a-9ca81f56effa
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_index_int
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 95c172a4-a7c1-4325-b764-4d632b37d218
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_inPlay_boolean
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 49e37c59-71b7-44ef-8bfb-bea49f1b9209
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_marketLine
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 07cf7eee-6450-49b0-9e67-acb9f3c9663e
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_marketSpecialConditions
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1ff12ae0-10a7-48ff-beb5-66867751aac9
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_marketStartingLine
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0dc9418b-0f4d-46ce-ab6a-7383a2ab269e
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_marketTemplateId_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 302fd02d-6186-46e6-bff5-452f38a18b65
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_marketTemplateType_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5350608c-6092-4fe3-87ef-6dd9b2237df1
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_market_com.whbettingengine.betting.messaging.Reference_id_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fca0ff22-9025-4bd1-bc6e-73638523f5b9
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_market_com.whbettingengine.betting.messaging.Reference_name_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dea263c0-32da-4aa7-b686-e9949fbd052b
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_market_com.whbettingengine.betting.messaging.Reference_url_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 209ad137-d730-4f48-bfbf-ce96815042f3
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_originalLine
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9e749b65-0e74-475c-9a9a-6feb3b3f761e
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_originalPrice
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 76c56bee-5422-495a-8cd8-50c4a8fa7ab6
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_priceType_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8ae1d9e6-05bc-47f6-8c20-e61b1298488d
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_price_com.whbettingengine.betting.messaging.Price_a_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 55f3e488-5641-4a5f-8c50-3f97442632eb
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_price_com.whbettingengine.betting.messaging.Price_d_double
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 30994d3e-f12a-49d1-bc50-6ea803a72e1c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_price_com.whbettingengine.betting.messaging.Price_f_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 35507dfc-0ed4-4225-876c-79a9d6fd29a1
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: ARRAY
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_problems
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9a2b2ccc-01a5-43ff-b2cf-10f668b242e4
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_result_com.whbettingengine.betting.messaging.LegResult_forecastDividends
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b958eb3c-d5fc-4c79-8e6c-8fc3acaa86cc
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_result_com.whbettingengine.betting.messaging.LegResult_place
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 47d668b2-b633-4720-bbff-feb81ac8b1d4
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_result_com.whbettingengine.betting.messaging.LegResult_placeReduction
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4a791b3b-522d-49e4-a2eb-66e503c0a458
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_result_com.whbettingengine.betting.messaging.LegResult_r4Deductions_int
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 93ef1500-95aa-4301-9fe4-4308a7a0f29c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_result_com.whbettingengine.betting.messaging.LegResult_tricastDividends
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ec8db98b-38f7-46d8-95d7-bed13dfee469
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_result_com.whbettingengine.betting.messaging.LegResult_type_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 49cbea8b-0800-4cc9-9f36-d8fefb4d50c1
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_result_com.whbettingengine.betting.messaging.LegResult_voidReason
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 87cdc67d-1e10-4d7f-a794-d2b15b489913
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_result_com.whbettingengine.betting.messaging.LegResult_winReduction
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8ea9ddb3-2d07-4028-a272-ef9074fd80fa
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_selectionType_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 136470e5-8581-4b05-9d88-e8a844a4bb85
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_selection_com.whbettingengine.betting.messaging.Reference_id_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1f7c0a75-0216-488f-b646-44e6355865bf
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_selection_com.whbettingengine.betting.messaging.Reference_name_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ac3f7a9b-be38-4f36-b75e-c8b941600d5a
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_selection_com.whbettingengine.betting.messaging.Reference_url
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 078efa8e-bb38-46e0-ae84-12775f096f30
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_sport_com.whbettingengine.betting.messaging.Reference_id_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6194c1da-62a8-4d9c-a8fe-277bbc17b2a5
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_sport_com.whbettingengine.betting.messaging.Reference_name_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c1afa3b3-8b9a-4854-af32-0120cefd100c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_sport_com.whbettingengine.betting.messaging.Reference_url_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6c01a4c5-098c-4b78-9b5f-a8eddcfd7527
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_spPrice_com.whbettingengine.betting.messaging.Price_a_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3c2722f0-51af-40cf-a6bb-9442cd4f6baf
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_spPrice_com.whbettingengine.betting.messaging.Price_d_double
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5ac7ef7f-3e2a-480d-94ac-61df0735a60f
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_spPrice_com.whbettingengine.betting.messaging.Price_f_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0e37ee41-bd2b-4c38-bc29-086b871002b9
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_teaserRule
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6738ffc2-a2fc-46e5-bc9e-c1cb2ad2249f
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_termsWithBet
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 54dd281b-4bcb-49cd-a209-a6a489521ece
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_legs_com.whbettingengine.betting.messaging.BetLeg_type_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1465eee4-ddf7-44cd-81d3-8050a6efb89e
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_maxBetPercent_double
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a92aef7c-5979-405e-bee7-e155f4a18b0e
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_maxBet_long
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 66502655-f570-4c52-98d4-b910d750f15f
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_numLines_int
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 496eb54a-43f0-4021-a027-44e6921562fe
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_operatorPayoutIfNotCashedOut
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9e791b94-1da4-4879-abd9-2cb00de95962
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_operatorPayout_long
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9bb313e7-dfdf-42a7-ab15-9dd1499b73aa
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_operatorPotentialReturns_long
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d032f6aa-35d4-4602-89ff-f18351b33ec3
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_operatorProfit_long
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 08ba014f-7cad-450c-ab6f-d1916ad2da25
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_operatorStakePerLine_long
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6ed72e84-e605-4e1e-9302-2ba4282e0084
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_operatorTotalStake_long
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 066dbf00-dc26-4b51-b2cb-fcb4e8439834
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_paidOutAtLocation
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d4724d55-ea65-4ec3-935a-8f52d3e95e65
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_paidOutAt_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a3299dad-951d-4098-a5d2-6dde21fb7744
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_paidOutBy
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5c351226-7a9c-42e6-9c2c-682a2d11f0ec
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_paidOut_boolean
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b7c085d0-5fd0-4d71-9a48-bd1bd1bd5f6c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_parkReason
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 86b3b665-1b93-4ad1-b283-a375e4e7ec22
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_parkReasonId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7c4f0a0f-0d5c-404d-8a06-d41da0079eb5
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_parlayCardEditionId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6e2ef772-b42e-43fb-b1ac-ae318769d7cb
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_parlayCardEditionTitle
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 503a7be7-f9ef-460b-a0b4-5e215fbf6efa
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_payoutExpiresAt_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 04ef88ab-ea7d-4def-9c95-6c89d3b00ce2
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_payoutIfNotCashedOut
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f7519c76-af42-4ebc-9a15-868c7123acca
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_payOutType_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 287decd7-7571-479d-a2a0-47b498ab65f6
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_payout_long
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e6a5ff18-042f-4103-b876-026fc6776c89
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_placedAtLocation_com.whbettingengine.betting.messaging.BettingLocation_deviceType_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 873585a0-05c2-4a38-8532-4218e3068689
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_placedAtLocation_com.whbettingengine.betting.messaging.BettingLocation_slotNumber_int
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bbb217b2-ca22-4c2f-a443-212b1dff23b2
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_placedAtLocation_com.whbettingengine.betting.messaging.BettingLocation_venueId_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 001195e9-4eb8-4edd-85a5-4d2bff3c4c5c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_placedAt_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6bccb19d-8b54-4675-b7db-1f8a265bdd3c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_placedBy
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c9e7cfc7-7257-4f8e-82ed-f03d7b35982e
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_placedByTeller
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: eeeb97fb-de14-4395-ac41-ba70f484b283
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_playerCardId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7350201f-3e97-474c-ab2c-dc55e2de8399
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_playerCardProviderId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: afd4424c-c8c7-4ba8-9384-8ac1bbdabfd6
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_potentialReturns_long
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7f8a0791-0a0a-450e-bb3f-7e479e3bf3bf
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_accountId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4567c443-7cd2-41b8-a0fa-e9d8ac105f57
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_accountName
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 55b6cb69-e153-4f0f-bdc4-c40c296070cf
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_accountType
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 20a4ffa1-4e88-4d03-ae97-4729d9600b67
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_accrueRewardPoints
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8fe7f42c-c833-4158-b49d-6d89da2546c5
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_antePost
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d3fc5de7-feaa-4302-b36b-5234e48d84cb
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_assetFlows
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3f96aabe-9961-4164-9c1e-7222b61a9eec
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_betSlipId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 07030ee2-b592-445a-8b88-e28ed2c1636c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_bet_price
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7485d707-32d1-4a5e-a43a-332b47c3e0a8
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_blockPayout
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f35bc7dd-264b-427f-99df-5c4b4a5dec4b
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_blockPayoutReason
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 36f38a59-7ffa-4c6e-99d6-35bcd3f1b312
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_bonuses
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 27d01308-5403-4b4e-a36c-00ef5ca21cdf
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_cancellation_metadata
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 12090e23-ebb0-4901-96c3-e4d954f3e222
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_cancelRequestedBy
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8a0eabba-c7f6-4cd6-a495-1661bf8543dd
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_cashedOut
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ffa8b532-bcd1-4bc3-b7b3-6876f27b3fa8
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_channel
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3bfea1e5-78a6-44ab-92fb-b91882bca1d3
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_comment
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c3de96b9-0a8a-4517-a722-8dd108f7b338
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_country
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ead59ee0-4782-45e3-92d6-61b1313ff7c5
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_currency
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f530a2c5-a78c-4705-b5aa-b0783f441a6c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_eachWay
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4abe5bcc-2869-44a7-8018-3a365c062796
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_externalAccountId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 357e3dc0-59fb-4516-a806-24e943e0c190
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_freebetStake
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6306de80-8812-4d2a-9972-b35b212461c6
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_freebetTokenId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5f636c84-98f5-4710-b636-4c5ae4d05d90
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_ip
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f5071703-12cb-4f66-95c3-ed53d9884633
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_legs
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 51e29278-15f7-4569-8a67-d5ddc018baa0
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_maxBet
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6f1d150a-34dd-4854-880d-242ae5158f18
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_maxBetPercent
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 909ea0dc-4346-4277-9668-705843a82efd
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_numLines
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c9b8d821-0ad0-4f97-8119-5114eca875af
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_operatorPayout
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 28560575-9099-4de8-81ff-b25fdf7b1f2c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_operatorPotentialReturns
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7e060820-9e4b-4d4a-a94c-755d74ddf59a
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_operatorProfit
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a2be9c7d-3ded-4981-bdad-0ed34e28634f
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_operatorStakePerLine
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b401d058-d210-40fe-9c2c-2081277fa504
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_operatorTotalStake
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 12115e7c-7883-464a-8373-4fe17964a60b
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_paidOut
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cc47a3f8-980d-46fe-8520-d9b4a1d6d63d
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_paidOutAt
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2e3244b9-02f5-4553-adcd-9ea4409fe556
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_paidOutAtLocation
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3a7dc400-629a-410c-a7b6-00d234f1b6da
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_paidOutBy
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 523470e3-d7c1-41c3-9ec9-0f55599a9925
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_parkReason
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 85850908-0c14-4c34-b355-b85f65818329
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_parkReasonId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bbd1c42e-b32b-49f8-9369-5e04d3205d0c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_payout
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f35144af-eed0-497c-a7fd-9f49b838d424
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_payoutExpiresAt
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 977153ae-90fb-475b-83a7-3b99fef6f558
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_payOutType
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8126c4b5-04a4-458c-87e5-65d18441a4db
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_placedAt
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3570537c-f147-4cab-8cb6-c8d92e19e93b
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_placedAtLocation
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 65acddbf-6c17-464d-bc5f-48ec6bfeb51b
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_placedBy
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1f32431d-e411-4679-972a-ce07766a6c4e
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_placedByTeller
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b89d4759-02e8-4676-9f29-674978a94541
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_playerCardId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b68f61e6-ec5d-438c-b7d9-ad2ff6d100da
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_playerCardProviderId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5624c01d-0803-4f1b-a5d9-0a22ff3d2342
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_potentialReturns
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9bbc159c-0590-494e-83f6-73ea5197a583
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_profit
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 75b2b10c-58d7-4e83-b9b6-97000e5e1ce2
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_retailTicketId
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cac8a06a-979c-4fbf-9cd7-8fc9978a45bb
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_settled
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4857e3ca-a4b5-4a36-ac1f-3dd095fc4a71
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_settledAt
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c7d34216-f7d6-4e6a-b14f-ddd9227c6b0e
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_settledBy
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 79123338-3d35-400e-b714-10727de0ef9c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_settledManually
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 290468de-263a-4bf5-ae4a-9e3c3b6b5a30
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_stakeFactor
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9d00f408-3717-46a5-885f-4aab9b826b10
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_stakePerLine
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a32d71cb-c277-4ffe-a776-222e57812682
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_status
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a05e3e77-5ae3-480b-be98-3557b2a36a6e
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_statusReason
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 51f764da-13c8-4652-90dd-f7e832d3c6e7
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_teaser_level
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7780036f-5ce7-4662-80a5-9cbc04f6b5b6
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_totalStake
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6f5f3b4c-eea1-4034-8f38-9eb6a0ca23ea
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_type
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1fa7e22f-f4ad-4132-8ce3-3654d6689b96
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_updatedAt
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3cdcda3d-7a2b-4a2d-a137-391932efeef5
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_previousValues_com.whbettingengine.betting.messaging.BetChanges_walletType
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a5ce02e4-44d2-4f7d-ab7d-2e5848d2397b
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_profit_long
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1f5394e6-e3e4-4560-ac3e-61d90503eb25
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_retailTicketId_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 708aaa56-f966-4de1-8f71-bf535b7827fd
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_settledAt_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7c5b8567-7138-4e7e-a4fd-73aa5562d015
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_settledBy_com.whbettingengine.betting.messaging.AccountReference_currency
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e77d1502-4356-4545-8abd-cbcb1a90ae79
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_settledBy_com.whbettingengine.betting.messaging.AccountReference_id_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bb093d30-dd74-4067-b2b4-6dc50b147c05
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_settledBy_com.whbettingengine.betting.messaging.AccountReference_name_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9d1f2aed-fae9-46f8-8e7b-2876ece1f42f
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_settledBy_com.whbettingengine.betting.messaging.AccountReference_stakeFactor
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c3889dd2-be31-49f9-86fa-733747306ec5
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_settledBy_com.whbettingengine.betting.messaging.AccountReference_tradingNotes
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1566dab0-f90b-4f62-9d0c-0f68bf800770
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_settledBy_com.whbettingengine.betting.messaging.AccountReference_type_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 06cf373a-24ed-4c85-8d0c-0091cf27951b
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_settledManually_boolean
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cc4af7d5-fe63-4aa3-b22d-b03817765327
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_settled_boolean
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3f7e3851-b9fd-4fbc-b34d-f32a08fafa2a
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_stakeFactor_double
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8ddc735b-d7a8-40cf-941b-947401b2d74b
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_stakePerLine_long
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5f67ed0e-5048-4db8-ad48-41fe91368cbf
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_statusReason
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ec00e589-b97e-430f-90be-e28a869acf6c
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_status_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8e2970d4-a273-447d-b2b0-6dd21e2a3eb2
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_teaserLevel
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2c7c778a-061f-4de5-a5a3-3bab2f749886
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_testBet_boolean
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7f9190b8-d36f-46d3-8e6b-79e9a3a91958
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_totalStake_long
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c1cebda6-8874-415e-a583-f5f2bb12bb08
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_type_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9f0639da-e033-4ff9-970e-e51a96330d3f
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_updatedAt_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 734c0bf2-2488-4858-b3d9-d4da3d9debf5
+          stepCounter: 7515575c-f8ce-4c15-a1a7-183febc9bce0
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Messages_value_com.whbettingengine.betting.messaging.BetEvent_walletType_string
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: STG_CAESARS_BETSAMPLE_JSON
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
