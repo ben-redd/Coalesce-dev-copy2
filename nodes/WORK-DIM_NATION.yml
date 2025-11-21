@@ -8,7 +8,7 @@ operation:
     testsEnabled: true
   database: ""
   deployEnabled: true
-  description: ""
+  description: DIM_NATION description
   isMultisource: false
   locationName: WORK
   materializationType: table

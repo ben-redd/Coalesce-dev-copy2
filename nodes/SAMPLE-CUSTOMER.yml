@@ -4,7 +4,7 @@ name: CUSTOMER
 operation:
   database: ""
   deployEnabled: true
-  description: ""
+  description: Should I be able to add a description to a source node???
   locationName: SAMPLE
   metadata:
     columns:
