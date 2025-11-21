@@ -24,7 +24,7 @@ operation:
     truncateBefore: false
   database: ""
   deployEnabled: true
-  description: Test description
+  description: Test description EDIT
   isMultisource: false
   locationName: WORK
   materializationType: table

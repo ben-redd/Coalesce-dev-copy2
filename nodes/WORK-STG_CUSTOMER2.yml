@@ -10,7 +10,7 @@ operation:
     truncateBefore: true
   database: ""
   deployEnabled: true
-  description: Stage node description
+  description: Test description EDIT
   isMultisource: false
   locationName: WORK
   materializationType: table

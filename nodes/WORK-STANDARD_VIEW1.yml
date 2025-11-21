@@ -7,7 +7,7 @@ operation:
     selectDistinct: false
   database: ""
   deployEnabled: true
-  description: Standard view description
+  description: Test description EDIT
   isMultisource: false
   locationName: WORK
   materializationType: view
