@@ -23,7 +23,7 @@ operation:
           stepCounter: a0a98790-a0a0-46c7-b07f-8308bc390d77
         config: {}
         dataType: NUMBER
-        description: ""
+        description: test
         name: DIM_NATION_KEY
         nullable: true
         sourceColumnReferences:
