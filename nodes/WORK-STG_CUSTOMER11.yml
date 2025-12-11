@@ -30,7 +30,7 @@ operation:
           - columnReferences:
               - columnCounter: 11ad01fd-0268-4673-8014-508613df5c76
                 stepCounter: 27b7d36c-4049-4179-99a2-28c2818c7582
-            transform: ""
+            transform: "!invalid"
       - appliedColumnTests: {}
         columnReference:
           columnCounter: c3f0ef05-0338-4e6f-98a7-e828a1e23936
