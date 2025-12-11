@@ -89,20 +89,6 @@ operation:
               - columnCounter: c4a2c50e-a54e-4e1a-9a5a-f61d4d0d591e
                 stepCounter: 3e4578bf-68b6-4d6f-bb60-57f5ce8233b3
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 920f8a60-201f-43de-b00f-4f0f01c9a4a8
-          stepCounter: a6e8517d-99c2-41bb-917e-16b7dacdc496
-        config: {}
-        dataType: NUMBER
-        description: ""
-        name: TEST_COL
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 521e4637-991c-4eba-88bc-01fb4c2073f8
-                stepCounter: 3e4578bf-68b6-4d6f-bb60-57f5ce8233b3
-            transform: ""
       - acceptedValues:
           strictMatch: true
           values: []
