@@ -1,0 +1,10 @@
+fileVersion: 1
+id: 000eac3e-70ec-404d-82ac-c92156045e8e
+name: Supplier
+steps:
+  - 04d9ed46-393b-4da7-bcb5-5c9589a1c662
+  - 328f3f00-77a2-4b41-a2c5-2428df65ec3b
+  - 74f12647-307b-4441-bde9-7f808f5dc664
+  - ac06b873-ec98-44fb-8e39-28fbc9b7d610
+  - f27be71e-b8e8-43d9-8b9b-a7cfe3bc7a3f
+type: Subgraph
