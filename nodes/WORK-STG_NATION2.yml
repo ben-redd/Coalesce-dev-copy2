@@ -24,6 +24,7 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
+        isBusinessKey: true
         name: N_NATIONKEY
         nullable: false
         sourceColumnReferences:
@@ -89,7 +90,7 @@ operation:
   name: STG_NATION2
   overrideSQL: false
   schema: ""
-  sqlType: Stage
+  sqlType: Dimension
   type: sql
   version: 1
 type: Node
