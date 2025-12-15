@@ -90,7 +90,7 @@ operation:
   name: STG_NATION2
   overrideSQL: false
   schema: ""
-  sqlType: Dimension
+  sqlType: Stage
   type: sql
   version: 1
 type: Node

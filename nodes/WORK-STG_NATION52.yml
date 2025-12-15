@@ -231,7 +231,7 @@ operation:
   name: STG_NATION52
   overrideSQL: false
   schema: ""
-  sqlType: Dimension
+  sqlType: Stage
   type: sql
   version: 1
 type: Node
