@@ -1,0 +1,79 @@
+fileVersion: 1
+id: 45baf61b-eaea-4b32-9164-6d0ae0eb40d2
+name: V_PRESYNC_CHILD7
+operation:
+  config:
+    insertStrategy: UNION
+    selectDistinct: false
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: ENV_PRESYNC
+  materializationType: view
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8fea21b7-e17a-411d-b964-ac42c28e1632
+          stepCounter: 45baf61b-eaea-4b32-9164-6d0ae0eb40d2
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: R_REGIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 340f6baf-e688-4551-81f4-d031241843e1
+                stepCounter: d0586e79-a20e-4adb-ae72-e8aa3a26abb0
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 942ea3f2-98a2-426a-94c8-b34a7496a332
+          stepCounter: 45baf61b-eaea-4b32-9164-6d0ae0eb40d2
+        config: {}
+        dataType: VARCHAR(25)
+        description: ""
+        name: R_NAME
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 170ec62d-b69d-46dd-b250-4cd567ca782d
+                stepCounter: d0586e79-a20e-4adb-ae72-e8aa3a26abb0
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fd554eba-6a82-4247-be45-a4e2fbb793de
+          stepCounter: 45baf61b-eaea-4b32-9164-6d0ae0eb40d2
+        config: {}
+        dataType: VARCHAR(152)
+        description: ""
+        name: R_COMMENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b4e2421e-9ac9-4ce8-af59-04ae75e2c421
+                stepCounter: d0586e79-a20e-4adb-ae72-e8aa3a26abb0
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          STG_PRESYNC_CHILD4: d0586e79-a20e-4adb-ae72-e8aa3a26abb0
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: ENV_PRESYNC
+            nodeName: STG_PRESYNC_CHILD4
+        join:
+          joinCondition: FROM {{ ref('ENV_PRESYNC', 'STG_PRESYNC_CHILD4') }} "STG_PRESYNC_CHILD4"
+        name: V_PRESYNC_CHILD7
+        noLinkRefs: []
+  name: V_PRESYNC_CHILD7
+  overrideSQL: false
+  schema: ""
+  sqlType: View
+  type: sql
+  version: 1
+type: Node

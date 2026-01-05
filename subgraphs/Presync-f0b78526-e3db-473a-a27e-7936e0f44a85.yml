@@ -1,0 +1,22 @@
+fileVersion: 1
+id: f0b78526-e3db-473a-a27e-7936e0f44a85
+name: Presync
+steps:
+  - 03e27483-44f4-4b64-aa0b-427184d6c557
+  - 092e63e2-9110-4ac3-bf13-fcc87f24e6df
+  - 2f7b917e-e91d-467c-9a03-dd8a4366c7c4
+  - 423e9c85-18f2-4966-ab16-e7db65f215c2
+  - 44c3591f-bb14-4a95-954d-263cace854ee
+  - 45baf61b-eaea-4b32-9164-6d0ae0eb40d2
+  - 553de828-c390-4ae0-b833-52a6a4c33863
+  - 5c74491f-278d-4338-be87-38086caea5a0
+  - 7dbb1d69-0c45-4b33-b9c0-8aab701e8831
+  - 8512b51e-e494-45ba-860f-41f6000e0018
+  - b359b999-fec1-4ab3-8acf-160035722b07
+  - cb5b5580-a9dc-4006-b3f1-db3f403c26f2
+  - d0586e79-a20e-4adb-ae72-e8aa3a26abb0
+  - dfca53f8-acc6-455d-a1f8-b052bf2073fd
+  - e16c5bf8-f48e-400a-b408-10ea7b91cbc2
+  - f9a4ccb1-6ba0-4fd9-bafe-7f8c55c965f8
+  - ff6c1cb5-0073-4908-aceb-f043644a0470
+type: Subgraph
