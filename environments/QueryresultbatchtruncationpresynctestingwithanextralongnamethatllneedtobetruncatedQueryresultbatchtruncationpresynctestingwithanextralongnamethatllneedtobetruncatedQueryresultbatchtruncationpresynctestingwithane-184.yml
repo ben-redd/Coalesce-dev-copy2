@@ -1,5 +1,20 @@
 fileVersion: 1
 id: "184"
-mappingDefinitions: {}
+mappingDefinitions:
+  TEST-1:
+    database: ""
+    schema: ""
+  TEST-2:
+    database: ""
+    schema: ""
+  TEST-3:
+    database: ""
+    schema: ""
+  TEST-4:
+    database: ""
+    schema: ""
+  TEST-5:
+    database: ""
+    schema: ""
 name: Query result batch truncation presync testing  with an extra long name that'll need to be truncated, Query result batch truncation presync testing with an extra long name that'll need to be truncated, Query result batch truncation presync testing with an e
 type: Environment

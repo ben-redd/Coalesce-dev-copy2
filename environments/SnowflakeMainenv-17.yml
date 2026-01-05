@@ -7,6 +7,21 @@ mappingDefinitions:
   SAMPLE:
     database: COALESCE_SAMPLE_DATABASE
     schema: TPCH_SF001
+  TEST-1:
+    database: ""
+    schema: ""
+  TEST-2:
+    database: ""
+    schema: ""
+  TEST-3:
+    database: ""
+    schema: ""
+  TEST-4:
+    database: ""
+    schema: ""
+  TEST-5:
+    database: ""
+    schema: ""
   WORK:
     database: BEN_EDW
     schema: 7.1_Env

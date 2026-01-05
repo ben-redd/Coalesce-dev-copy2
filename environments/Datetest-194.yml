@@ -1,5 +1,20 @@
 fileVersion: 1
 id: "194"
-mappingDefinitions: {}
+mappingDefinitions:
+  TEST-1:
+    database: ""
+    schema: ""
+  TEST-2:
+    database: ""
+    schema: ""
+  TEST-3:
+    database: ""
+    schema: ""
+  TEST-4:
+    database: ""
+    schema: ""
+  TEST-5:
+    database: ""
+    schema: ""
 name: Date test
 type: Environment
