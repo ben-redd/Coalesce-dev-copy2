@@ -8,20 +8,20 @@ mappingDefinitions:
     database: COALESCE_SAMPLE_DATABASE
     schema: TPCH_SF001
   TEST-1:
-    database: ""
-    schema: ""
+    database: BEN_EDW
+    schema: 7.1_Regression_ENV
   TEST-2:
-    database: ""
-    schema: ""
+    database: BEN_EDW
+    schema: ADV_DEPLOY_ORDERING_BAR_ENV
   TEST-3:
-    database: ""
-    schema: ""
+    database: DAVID_E_DEV
+    schema: QA_STAGING
   TEST-4:
-    database: ""
-    schema: ""
+    database: DAVID_I_EDW
+    schema: CANARY_ENV_TWO
   TEST-5:
-    database: ""
-    schema: ""
+    database: DAVID_I_EDW
+    schema: CANARY_WS_TWO
   WORK:
     database: BEN_EDW
     schema: 7.1_Env
