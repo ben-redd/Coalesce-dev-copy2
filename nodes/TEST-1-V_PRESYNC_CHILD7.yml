@@ -9,7 +9,7 @@ operation:
   deployEnabled: true
   description: ""
   isMultisource: false
-  locationName: ENV_PRESYNC
+  locationName: TEST-1
   materializationType: view
   metadata:
     appliedNodeTests: []
