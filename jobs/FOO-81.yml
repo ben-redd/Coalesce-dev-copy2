@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "81"
+includeSelector: "{ location: WORK name: FOO } OR { location: WORK name: STG_FOO } OR { location: WORK name: STG_FOO1 } OR { location: WORK name: STG_FOO2 } OR { location: WORK name: STG_FOO3 } OR { location: WORK name: STG_FOO4 }"
+name: FOO
+type: Job

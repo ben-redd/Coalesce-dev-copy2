@@ -1,0 +1,11 @@
+fileVersion: 1
+id: 04a07a22-ed0d-4b0f-bb2a-114b63547ac0
+name: FOO - subgraph
+steps:
+  - 1062d7ca-587e-4d06-b1e8-9feb4afd3083
+  - 66c7bf95-9203-49ab-b97a-de153f9b5496
+  - acc9ed06-8836-4ccc-adb6-ec997b32b028
+  - b0fc0766-899c-4828-b7a0-b58cb4e3aab0
+  - bccedb23-60ef-496b-8d0a-f48a68683149
+  - cc550618-7ee7-4ab7-9e37-a1ff90734524
+type: Subgraph
