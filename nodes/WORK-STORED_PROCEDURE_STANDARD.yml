@@ -4,14 +4,14 @@ name: STORED_PROCEDURE_STANDARD
 operation:
   config:
     SQL1: |-
-      CREATE OR REPLACE PROCEDURE {{node_name()}}("MESSAGE1" STRING)
-          RETURNS ARRAY
+      CREATE OR REPLACE PROCEDURE {{node_name()}}("test" FLOAT)
+          RETURNS FLOAT
           LANGUAGE JAVASCRIPT
           STRICT
           EXECUTE AS OWNER
           AS
           $$
-          return [MESSAGE1];
+          return test;
           $$
           ;
   database: ""

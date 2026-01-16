@@ -5,7 +5,7 @@ operation:
   config:
     insertStrategy: INSERT
     postSQL: ""
-    preSQL: call {{ref('WORK', 'STORED_PROCEDURE_STANDARD')}}('Hello')
+    preSQL: call {{ref('WORK', 'STORED_PROCEDURE_STANDARD')}}(103.5)
     testsEnabled: true
     truncateBefore: true
   database: ""
