@@ -1,6 +1,6 @@
 fileVersion: 1
 id: 39603e59-54ec-498d-a8dc-3c66052ed2c1
-name: STORED_PROCEDURE_TEST
+name: STORED_PROCEDURE_ARRAY
 operation:
   config:
     SQL1: |-
@@ -66,9 +66,9 @@ operation:
         dependencies: []
         join:
           joinCondition: ""
-        name: STORED_PROCEDURE_TEST
+        name: STORED_PROCEDURE_ARRAY
         noLinkRefs: []
-  name: STORED_PROCEDURE_TEST
+  name: STORED_PROCEDURE_ARRAY
   overrideSQL: false
   schema: ""
   sqlType: "160"
