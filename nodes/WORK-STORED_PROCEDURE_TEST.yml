@@ -1,0 +1,77 @@
+fileVersion: 1
+id: 39603e59-54ec-498d-a8dc-3c66052ed2c1
+name: STORED_PROCEDURE_TEST
+operation:
+  config:
+    SQL1: |-
+      CREATE OR REPLACE PROCEDURE {{node_name()}}("MESSAGE1" STRING, "MESSAGE2" STRING)
+          RETURNS ARRAY
+          LANGUAGE JAVASCRIPT
+          STRICT
+          EXECUTE AS OWNER
+          AS
+          $$
+          return [[MESSAGE1],[MESSAGE2]];
+          $$
+          ;
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 89bebf2c-b75b-4f81-a61e-14e8977f5fb8
+          stepCounter: 39603e59-54ec-498d-a8dc-3c66052ed2c1
+        config: {}
+        dataType: NUMBER IDENTITY
+        defaultValue: ""
+        description: ""
+        isSurrogateKey: true
+        name: SQL_SEQ
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ace4f69a-ec6c-411f-b2d3-776048fcddaa
+          stepCounter: 39603e59-54ec-498d-a8dc-3c66052ed2c1
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemStartDate: true
+        name: SYSTEM_START_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies: []
+        join:
+          joinCondition: ""
+        name: STORED_PROCEDURE_TEST
+        noLinkRefs: []
+  name: STORED_PROCEDURE_TEST
+  overrideSQL: false
+  schema: ""
+  sqlType: "160"
+  type: sql
+  version: 1
+type: Node

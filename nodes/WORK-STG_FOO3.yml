@@ -5,7 +5,10 @@ operation:
   config:
     insertStrategy: INSERT
     postSQL: ""
-    preSQL: ""
+    preSQL: |-
+      -- CALL test_array()
+
+      call {{ref('WORK', 'STORED_PROCEDURE_TEST')}}('hello', 'world')
     testsEnabled: true
     truncateBefore: true
   database: ""
