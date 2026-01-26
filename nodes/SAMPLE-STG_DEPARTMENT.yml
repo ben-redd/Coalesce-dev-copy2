@@ -1,0 +1,271 @@
+fileVersion: 1
+id: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+name: STG_DEPARTMENT
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 45d98da2-430e-42be-b1ab-7444d427fa0e
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARIANT
+        defaultValue: ""
+        description: ""
+        name: SRC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 540bb04f-7b7e-402f-a566-a6b98b83e9af
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_dept_id
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cf5a9470-ccc2-4f2f-bc03-0d1163c306cd
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_dept_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e37d46bb-a223-4b34-b857-b9af3951136d
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_employee_emp_id
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 09db60ac-7e79-418d-87e8-5d7132822758
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_employee_emp_fname
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 78398b1b-6bd7-4d1d-a5a7-30fa0362eb29
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_employee_emp_lname
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9125eeb0-a242-4337-8d29-c68ef40e30ae
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_employee_emp_title
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a8101e97-e7fe-4c27-860b-7543d5e375b1
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_employee_emp_ssn
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3106ae55-6bd1-461e-ac45-0d6051bb67e8
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_employee_address_street_1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cf56687a-5bf6-47b3-a296-9c786e49406f
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_employee_address_street_2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 21f41dac-d3a2-49ed-8fd7-355d8db47810
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_employee_address_city
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 633bda27-586a-49bf-9cbb-cc7b1e70da02
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_employee_address_state
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d6e49c9d-151b-4b68-b229-2186dba5ccc7
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_employee_address_zipcode
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 56c37f73-e7c5-4da8-ad93-129356567e9a
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_employee_address_start_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 07997bc6-8023-4479-b6f3-3bf4ac5c5acd
+          stepCounter: a80cfff9-f48d-4cb4-8e24-761c8bb15269
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: dept_employee_address_end_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: STG_DEPARTMENT
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
