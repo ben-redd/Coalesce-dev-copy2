@@ -491,8 +491,6 @@ operation:
     sourceMapping:
       - aliases:
           STG_CUSTOMER_LINEITEM_ORDERS: 581ab691-3475-4e2e-8c13-2e34c9ae8a8d
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STG_CUSTOMER_LINEITEM_ORDERS

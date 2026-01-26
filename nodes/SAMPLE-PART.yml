@@ -21,8 +21,6 @@ operation:
         description: ""
         name: P_PARTKEY
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -36,8 +34,6 @@ operation:
         description: ""
         name: P_NAME
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -51,8 +47,6 @@ operation:
         description: ""
         name: P_MFGR
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -66,8 +60,6 @@ operation:
         description: ""
         name: P_BRAND
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -81,8 +73,6 @@ operation:
         description: ""
         name: P_TYPE
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -96,8 +86,6 @@ operation:
         description: ""
         name: P_SIZE
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -111,8 +99,6 @@ operation:
         description: ""
         name: P_CONTAINER
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -126,8 +112,6 @@ operation:
         description: ""
         name: P_RETAILPRICE
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -141,8 +125,6 @@ operation:
         description: ""
         name: P_COMMENT
         nullable: true
-        primaryKey: false
-        uniqueKey: false
   name: PART
   schema: ""
   sqlType: Source

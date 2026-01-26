@@ -254,8 +254,6 @@ operation:
       - isDistinct
     sourceMapping:
       - aliases: {}
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: SAMPLE
             nodeName: LINEITEM

@@ -21,8 +21,6 @@ operation:
         description: Foreign Key to P_PARTKEY
         name: PS_PARTKEY
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -36,8 +34,6 @@ operation:
         description: Foreign Key to S_SUPPKEY
         name: PS_SUPPKEY
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -51,8 +47,6 @@ operation:
         description: ""
         name: PS_AVAILQTY
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -66,8 +60,6 @@ operation:
         description: ""
         name: PS_SUPPLYCOST
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -81,8 +73,6 @@ operation:
         description: ""
         name: PS_COMMENT
         nullable: true
-        primaryKey: false
-        uniqueKey: false
   name: PARTSUPP
   schema: ""
   sqlType: Source

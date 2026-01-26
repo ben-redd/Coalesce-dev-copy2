@@ -85,8 +85,6 @@ operation:
     enabledColumnTestIDs: []
     sourceMapping:
       - aliases: {}
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STG_NATION
@@ -95,8 +93,6 @@ operation:
         name: STG_NATION6
         noLinkRefs: []
       - aliases: {}
-        customSQL:
-          customSQL: ""
         dependencies: []
         join:
           joinCondition: ""

@@ -74,14 +74,11 @@ operation:
             stepCounter: 3e4578bf-68b6-4d6f-bb60-57f5ce8233b3
         name: GH
         nullable: true
-        sourceColumnReferences: []
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
       - aliases:
           NATION: 6564024b-8ea3-491b-8f0c-bf89a3252c88
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: SAMPLE
             nodeName: NATION

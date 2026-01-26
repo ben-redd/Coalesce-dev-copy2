@@ -234,8 +234,6 @@ operation:
           STG_NATION: 3e4578bf-68b6-4d6f-bb60-57f5ce8233b3
           STG_ORDERS: da521b9d-fe26-4b59-9024-21268a942475
           STG_REGION: ced8f8b5-5c9c-4330-bb89-80d085a738cd
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STG_NATION

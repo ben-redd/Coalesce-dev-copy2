@@ -175,9 +175,7 @@ operation:
         name: O_TEST
         nullable: true
         sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: "0"
-                stepCounter: "0"
+          - columnReferences: []
             transform: ""
     cteString: ""
     enabledColumnTestIDs:
@@ -186,8 +184,6 @@ operation:
     sourceMapping:
       - aliases:
           ORDERS: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: SAMPLE
             nodeName: ORDERS

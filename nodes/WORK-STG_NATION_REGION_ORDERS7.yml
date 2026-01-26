@@ -232,8 +232,6 @@ operation:
     sourceMapping:
       - aliases:
           STG_NATION_REGION_ORDERS2: 64059860-88bc-4dc6-8d3b-8e33a7822025
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STG_NATION_REGION_ORDERS2

@@ -106,8 +106,6 @@ operation:
     sourceMapping:
       - aliases:
           STG_ADVANCED_VIEW2: 92f413cc-a713-48b2-90fc-7738bb84ad9e
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STG_ADVANCED_VIEW2

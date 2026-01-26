@@ -78,8 +78,6 @@ operation:
     sourceMapping:
       - aliases:
           STG_NATION12: 0529909c-f029-407b-9169-de7c5df29434
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STG_NATION12

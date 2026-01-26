@@ -24,8 +24,6 @@ operation:
         description: SF*1,500,000 are sparsely populated
         name: O_ORDERKEY
         nullable: true
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -39,8 +37,6 @@ operation:
         description: Foreign Key to C_CUSTKEY
         name: O_CUSTKEY
         nullable: true
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -54,8 +50,6 @@ operation:
         description: ""
         name: O_ORDERSTATUS
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -69,8 +63,6 @@ operation:
         description: ""
         name: O_TOTALPRICE
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -84,8 +76,6 @@ operation:
         description: ""
         name: O_ORDERDATE
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -99,8 +89,6 @@ operation:
         description: ""
         name: O_ORDERPRIORITY
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -114,8 +102,6 @@ operation:
         description: ""
         name: O_CLERK
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -129,8 +115,6 @@ operation:
         description: ""
         name: O_SHIPPRIORITY
         nullable: false
-        primaryKey: false
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -144,8 +128,6 @@ operation:
         description: ""
         name: O_COMMENT
         nullable: false
-        primaryKey: false
-        uniqueKey: false
   name: ORDERS
   schema: ""
   sqlType: Source

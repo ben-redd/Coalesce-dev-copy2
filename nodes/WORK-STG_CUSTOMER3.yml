@@ -105,8 +105,6 @@ operation:
     enabledColumnTestIDs: []
     sourceMapping:
       - aliases: {}
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: V_CUSTOMER

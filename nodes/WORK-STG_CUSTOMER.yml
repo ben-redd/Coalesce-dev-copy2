@@ -148,8 +148,6 @@ operation:
     sourceMapping:
       - aliases:
           CUSTOMER: 5f46abb3-1e1c-4dd4-8d51-ba295bd273a1
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: SAMPLE
             nodeName: CUSTOMER

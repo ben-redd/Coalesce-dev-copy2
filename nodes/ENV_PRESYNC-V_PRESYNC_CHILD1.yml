@@ -61,8 +61,6 @@ operation:
     sourceMapping:
       - aliases:
           PRESYNC_CHILD1: 8512b51e-e494-45ba-860f-41f6000e0018
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: ENV_PRESYNC
             nodeName: PRESYNC_CHILD1

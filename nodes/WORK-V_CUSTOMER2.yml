@@ -103,8 +103,6 @@ operation:
     sourceMapping:
       - aliases:
           V_CUSTOMER1: cb5ff4c2-651f-4a9b-8797-a82626bce8f0
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: V_CUSTOMER1

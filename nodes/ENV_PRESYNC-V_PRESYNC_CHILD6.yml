@@ -61,8 +61,6 @@ operation:
     sourceMapping:
       - aliases:
           STG_PRESYNC_CHILD3: f9a4ccb1-6ba0-4fd9-bafe-7f8c55c965f8
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: ENV_PRESYNC
             nodeName: STG_PRESYNC_CHILD3

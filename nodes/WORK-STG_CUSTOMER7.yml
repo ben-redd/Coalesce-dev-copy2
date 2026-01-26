@@ -134,8 +134,6 @@ operation:
     sourceMapping:
       - aliases:
           STG_CUSTOMER4: 5e84e096-9cea-4ca5-8841-b516c65609e2
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STG_CUSTOMER4

@@ -152,15 +152,10 @@ operation:
                 stepCounter: da2021c5-f522-4486-89cd-2b526c4d3f96
             transform: ""
     cteString: ""
-    description: ""
-    destinationName: ""
     enabledColumnTestIDs: []
-    materializationOption: ""
     sourceMapping:
       - aliases:
           PART: da2021c5-f522-4486-89cd-2b526c4d3f96
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: SAMPLE
             nodeName: PART

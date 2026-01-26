@@ -493,8 +493,6 @@ operation:
           CUSTOMER: 5f46abb3-1e1c-4dd4-8d51-ba295bd273a1
           LINEITEM: d7cf24ea-789e-4766-9739-c33cc8aa5901
           ORDERS: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: SAMPLE
             nodeName: CUSTOMER

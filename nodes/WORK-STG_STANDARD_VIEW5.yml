@@ -120,8 +120,6 @@ operation:
     sourceMapping:
       - aliases:
           STG_STANDARD_VIEW3: ac06b873-ec98-44fb-8e39-28fbc9b7d610
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STG_STANDARD_VIEW3

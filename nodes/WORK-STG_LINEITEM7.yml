@@ -253,8 +253,6 @@ operation:
     sourceMapping:
       - aliases:
           STG_LINEITEM2: bfb7a2b2-ba5f-4f48-b72a-fa08d976b5c9
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STG_LINEITEM2

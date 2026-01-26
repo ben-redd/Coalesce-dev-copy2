@@ -102,8 +102,6 @@ operation:
     enabledColumnTestIDs: []
     sourceMapping:
       - aliases: {}
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STANDARD_VIEW1

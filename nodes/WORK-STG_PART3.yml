@@ -148,8 +148,6 @@ operation:
     sourceMapping:
       - aliases:
           STG_PART1: 8d7cc84a-6ae1-48e1-b752-ccbc1af46c2c
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STG_PART1
