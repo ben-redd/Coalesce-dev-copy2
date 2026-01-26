@@ -98,10 +98,7 @@ operation:
               - columnCounter: 13cc749f-fab4-4c44-9926-d2143807a1bd
                 stepCounter: 04d9ed46-393b-4da7-bcb5-5c9589a1c662
             transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
+      - appliedColumnTests: {}
         columnReference:
           columnCounter: a39ae737-6ab9-4e3a-a790-7e976b823b62
           stepCounter: 74f12647-307b-4441-bde9-7f808f5dc664

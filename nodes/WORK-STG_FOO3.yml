@@ -120,8 +120,6 @@ operation:
     sourceMapping:
       - aliases:
           STG_FOO2: 1062d7ca-587e-4d06-b1e8-9feb4afd3083
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STG_FOO2

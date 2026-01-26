@@ -195,10 +195,7 @@ operation:
         sourceColumnReferences:
           - columnReferences: []
             transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
+      - appliedColumnTests: {}
         columnReference:
           columnCounter: 9a2aee18-ddbe-4bdc-85d8-2ee34de0faa6
           stepCounter: 4efc8299-aef7-44ab-b86f-ae1a82205e79
@@ -213,11 +210,7 @@ operation:
             stepCounter: 4efc8299-aef7-44ab-b86f-ae1a82205e79
         name: GH
         nullable: true
-        sourceColumnReferences: []
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
+      - appliedColumnTests: {}
         columnReference:
           columnCounter: 80010a4b-3644-42b4-b130-19b74c3f3843
           stepCounter: 4efc8299-aef7-44ab-b86f-ae1a82205e79
@@ -232,11 +225,7 @@ operation:
             stepCounter: 4efc8299-aef7-44ab-b86f-ae1a82205e79
         name: GH1
         nullable: true
-        sourceColumnReferences: []
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
+      - appliedColumnTests: {}
         columnReference:
           columnCounter: b944f074-b238-4629-b71b-6f0b5a1ed903
           stepCounter: 4efc8299-aef7-44ab-b86f-ae1a82205e79
@@ -251,13 +240,10 @@ operation:
             stepCounter: 4efc8299-aef7-44ab-b86f-ae1a82205e79
         name: GH2
         nullable: true
-        sourceColumnReferences: []
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
       - aliases: {}
-        customSQL:
-          customSQL: ""
         dependencies:
           - locationName: SAMPLE
             nodeName: NATION

@@ -59,10 +59,7 @@ operation:
               - columnCounter: 223c662a-2bb3-4542-a4a8-31ad0dd51c3a
                 stepCounter: 6564024b-8ea3-491b-8f0c-bf89a3252c88
             transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
+      - appliedColumnTests: {}
         columnReference:
           columnCounter: c4a2c50e-a54e-4e1a-9a5a-f61d4d0d591e
           stepCounter: 3e4578bf-68b6-4d6f-bb60-57f5ce8233b3

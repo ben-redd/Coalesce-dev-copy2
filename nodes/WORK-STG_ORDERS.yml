@@ -164,10 +164,7 @@ operation:
               - columnCounter: 930dc9ec-8bdf-45e6-9717-c1cf148634fd
                 stepCounter: 8dbb31c0-07e8-4707-ba22-7a64630f3a91
             transform: UPPER("ORDERS"."O_COMMENT")
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
+      - appliedColumnTests: {}
         columnReference:
           columnCounter: 29eba395-db45-4500-b39f-32619d670670
           stepCounter: da521b9d-fe26-4b59-9024-21268a942475

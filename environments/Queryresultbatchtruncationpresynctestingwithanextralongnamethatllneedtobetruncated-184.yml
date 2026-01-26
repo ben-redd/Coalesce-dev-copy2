@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "194"
+id: "184"
 mappingDefinitions:
   TEST-1:
     database: ""
@@ -16,5 +16,5 @@ mappingDefinitions:
   TEST-5:
     database: ""
     schema: ""
-name: Date test
+name: Query result batch truncation presync testing with an extra long name that'll need to be truncated
 type: Environment
