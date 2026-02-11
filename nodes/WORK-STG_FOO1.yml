@@ -5,7 +5,8 @@ operation:
   config:
     insertStrategy: INSERT
     postSQL: ""
-    preSQL: ""
+    preSQL: |
+      ref{{'invalid', 'ref'}} that's really dumb`' and results in failure
     testsEnabled: true
     truncateBefore: true
   database: ""
