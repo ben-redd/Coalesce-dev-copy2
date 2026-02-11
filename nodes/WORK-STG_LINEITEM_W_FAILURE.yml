@@ -1,6 +1,6 @@
 fileVersion: 1
 id: 621de586-c9b1-4835-be78-9a8f1a42770e
-name: STG_LINEITEM9
+name: STG_LINEITEM_W_FAILURE
 operation:
   config:
     insertStrategy: INSERT
@@ -258,9 +258,9 @@ operation:
             nodeName: STG_LINEITEM4
         join:
           joinCondition: FROM {{ ref('WORK', 'STG_LINEITEM4') }} "STG_LINEITEM4"
-        name: STG_LINEITEM9
+        name: STG_LINEITEM_W_FAILURE
         noLinkRefs: []
-  name: STG_LINEITEM9
+  name: STG_LINEITEM_W_FAILURE
   overrideSQL: false
   schema: ""
   sqlType: Stage
