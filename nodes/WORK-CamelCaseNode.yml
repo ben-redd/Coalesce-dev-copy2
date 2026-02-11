@@ -1,6 +1,6 @@
 fileVersion: 1
 id: 1c9b09b8-b77a-4558-acd5-bfa8223f3e49
-name: STG_LINEITEM7
+name: CamelCaseNode
 operation:
   config:
     insertStrategy: INSERT
@@ -258,9 +258,9 @@ operation:
             nodeName: STG_LINEITEM2
         join:
           joinCondition: FROM {{ ref('WORK', 'STG_LINEITEM2') }} "STG_LINEITEM2"
-        name: STG_LINEITEM7
+        name: CamelCaseNode
         noLinkRefs: []
-  name: STG_LINEITEM7
+  name: CamelCaseNode
   overrideSQL: false
   schema: ""
   sqlType: Stage
