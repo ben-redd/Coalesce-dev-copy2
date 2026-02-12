@@ -5,7 +5,7 @@
         {% endif %}
     {% endfor %}
 
-{% if node.materializationType == 'table' 
+{% if node.materializationType == 'table' %}
 	{% if config.preSQL %}
 		{{ stage('Pre-SQL') }}
 		{{ config.preSQL }}
