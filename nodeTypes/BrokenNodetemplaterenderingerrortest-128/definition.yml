@@ -9,6 +9,7 @@ metadata:
     short: STG
     plural: Stages
     tagColor: '#2EB67D'
+    !invalid
 
     config:
     - groupName: Options
