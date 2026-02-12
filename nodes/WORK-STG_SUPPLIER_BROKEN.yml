@@ -1,6 +1,6 @@
 fileVersion: 1
 id: 8ec6d766-7e6b-404a-bd69-a112bfd81144
-name: STG_SUPPLIER
+name: STG_SUPPLIER_BROKEN
 operation:
   config:
     insertStrategy: INSERT
@@ -125,9 +125,9 @@ operation:
             nodeName: SUPPLIER
         join:
           joinCondition: FROM {{ ref('SAMPLE', 'SUPPLIER') }} "SUPPLIER"
-        name: STG_SUPPLIER
+        name: STG_SUPPLIER_BROKEN
         noLinkRefs: []
-  name: STG_SUPPLIER
+  name: STG_SUPPLIER_BROKEN
   overrideSQL: false
   schema: ""
   sqlType: "128"
