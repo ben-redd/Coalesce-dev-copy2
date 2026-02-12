@@ -1,5 +1,6 @@
-
-    {% for test in node.tests if config.testsEnabled %}
+!invalid
+	{% for test in node.tests if config.testsEnabled %}
+	Bad template!
         {% if test.runOrder == 'Before' %}
             {{ test_stage(test.name, test.continueOnFailure) }}
             {{ test.templateString }}
