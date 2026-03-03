@@ -1,6 +1,6 @@
 fileVersion: 1
-id: 27b7d36c-4049-4179-99a2-28c2818c7582
-name: STG_CUSTOMER5
+id: 38f76ffd-d804-42a1-a9e0-f3d330bc7d01
+name: STG_BRANCH_A_NEW_NODE
 operation:
   config:
     insertStrategy: INSERT
@@ -19,8 +19,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 11ad01fd-0268-4673-8014-508613df5c76
-          stepCounter: 27b7d36c-4049-4179-99a2-28c2818c7582
+          columnCounter: d507f5ef-7bf2-42cc-8263-bdecf6595210
+          stepCounter: 38f76ffd-d804-42a1-a9e0-f3d330bc7d01
         config: {}
         dataType: NUMBER(38,0)
         description: SF*150,000 are populated
@@ -33,8 +33,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 14b47d7b-e58c-4401-b1d4-c16d5dedf847
-          stepCounter: 27b7d36c-4049-4179-99a2-28c2818c7582
+          columnCounter: 41529878-c116-4a77-b581-bd178b623956
+          stepCounter: 38f76ffd-d804-42a1-a9e0-f3d330bc7d01
         config: {}
         dataType: VARCHAR(25)
         description: ""
@@ -47,8 +47,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 13d56101-4f78-484c-a7bb-395fc9b65052
-          stepCounter: 27b7d36c-4049-4179-99a2-28c2818c7582
+          columnCounter: 3f3948ed-c7d5-49e9-a9f1-ea9669fe9107
+          stepCounter: 38f76ffd-d804-42a1-a9e0-f3d330bc7d01
         config: {}
         dataType: VARCHAR(40)
         description: ""
@@ -61,8 +61,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: c6c70b0b-cacd-40ef-af44-409d8b786832
-          stepCounter: 27b7d36c-4049-4179-99a2-28c2818c7582
+          columnCounter: 20088927-3b31-4b03-bb8a-2342a6eb2e59
+          stepCounter: 38f76ffd-d804-42a1-a9e0-f3d330bc7d01
         config: {}
         dataType: NUMBER(38,0)
         description: Foreign Key to N_NATIONKEY
@@ -75,8 +75,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 80d3340b-c312-4c01-b595-b042fa950e6a
-          stepCounter: 27b7d36c-4049-4179-99a2-28c2818c7582
+          columnCounter: 578ccd9d-20fc-4152-9e3b-b060bddef8d8
+          stepCounter: 38f76ffd-d804-42a1-a9e0-f3d330bc7d01
         config: {}
         dataType: VARCHAR(15)
         description: ""
@@ -89,8 +89,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: d6f1de64-9360-4f95-857a-52c9fedd1f5e
-          stepCounter: 27b7d36c-4049-4179-99a2-28c2818c7582
+          columnCounter: c5b66c96-710f-4e9c-b6be-7ae3c73c57e2
+          stepCounter: 38f76ffd-d804-42a1-a9e0-f3d330bc7d01
         config: {}
         dataType: NUMBER(12,2)
         description: ""
@@ -111,9 +111,9 @@ operation:
             nodeName: STG_CUSTOMER3
         join:
           joinCondition: FROM {{ ref('WORK', 'STG_CUSTOMER3') }} "STG_CUSTOMER3"
-        name: STG_CUSTOMER5
+        name: STG_BRANCH_A_NEW_NODE
         noLinkRefs: []
-  name: STG_CUSTOMER5
+  name: STG_BRANCH_A_NEW_NODE
   overrideSQL: false
   schema: ""
   sqlType: Stage
