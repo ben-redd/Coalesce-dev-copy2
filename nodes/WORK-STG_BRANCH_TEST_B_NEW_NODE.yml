@@ -1,0 +1,122 @@
+fileVersion: 1
+id: 60891174-651c-462b-969e-af82e0d91230
+name: STG_BRANCH_TEST_B_NEW_NODE
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cfd15b1e-9aa1-4d24-9022-8e671ded0970
+          stepCounter: 60891174-651c-462b-969e-af82e0d91230
+        config: {}
+        dataType: NUMBER(38,0)
+        description: SF*150,000 are populated
+        name: C_CUSTKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 588e9599-d679-41dd-be35-657e158107f9
+                stepCounter: c85e02e9-19ba-49f0-8506-d3efabb0eada
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fcaf116b-86e9-47ef-8f7c-2aace9e9eb4f
+          stepCounter: 60891174-651c-462b-969e-af82e0d91230
+        config: {}
+        dataType: VARCHAR(25)
+        description: ""
+        name: C_NAME
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2393533a-1e2e-41d9-97d5-fa6cf4cb40b6
+                stepCounter: c85e02e9-19ba-49f0-8506-d3efabb0eada
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 13d92756-2137-497a-a94b-c008b17f5997
+          stepCounter: 60891174-651c-462b-969e-af82e0d91230
+        config: {}
+        dataType: VARCHAR(40)
+        description: ""
+        name: C_ADDRESS
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a0a6225c-8299-41ee-a5ec-a1e4ba94e047
+                stepCounter: c85e02e9-19ba-49f0-8506-d3efabb0eada
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ac10deed-9942-45c6-aec0-f54b73993254
+          stepCounter: 60891174-651c-462b-969e-af82e0d91230
+        config: {}
+        dataType: NUMBER(38,0)
+        description: Foreign Key to N_NATIONKEY
+        name: C_NATIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 63f3595d-531b-4041-9b72-2477cb384b54
+                stepCounter: c85e02e9-19ba-49f0-8506-d3efabb0eada
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 88999aa8-30cb-467a-9574-f2b249c55401
+          stepCounter: 60891174-651c-462b-969e-af82e0d91230
+        config: {}
+        dataType: VARCHAR(15)
+        description: ""
+        name: C_PHONE
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 80e21f72-0ec3-4355-992e-0c31503925c3
+                stepCounter: c85e02e9-19ba-49f0-8506-d3efabb0eada
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 73a82162-bbff-4d46-a15e-f07128f9b559
+          stepCounter: 60891174-651c-462b-969e-af82e0d91230
+        config: {}
+        dataType: NUMBER(12,2)
+        description: ""
+        name: C_ACCTBAL
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: dda00c67-d7f7-4176-a6ab-d4b3a64058a7
+                stepCounter: c85e02e9-19ba-49f0-8506-d3efabb0eada
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          STG_CUSTOMER3: c85e02e9-19ba-49f0-8506-d3efabb0eada
+        dependencies:
+          - locationName: WORK
+            nodeName: STG_CUSTOMER3
+        join:
+          joinCondition: FROM {{ ref('WORK', 'STG_CUSTOMER3') }} "STG_CUSTOMER3"
+        name: STG_BRANCH_TEST_B_NEW_NODE
+        noLinkRefs: []
+  name: STG_BRANCH_TEST_B_NEW_NODE
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node
