@@ -10,7 +10,7 @@ operation:
     truncateBefore: true
   database: ""
   deployEnabled: true
-  description: ""
+  description: Creates the STG_CUSTOMER_LINEITEM_ORDERS1 table, truncates the table if it exists, and then loads data from STG_CUSTOMER_LINEITEM_ORDERS into it.
   isMultisource: false
   locationName: WORK
   materializationType: table

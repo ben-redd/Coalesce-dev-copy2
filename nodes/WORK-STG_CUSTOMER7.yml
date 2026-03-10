@@ -44,7 +44,7 @@ operation:
           - columnReferences:
               - columnCounter: bf784aa7-7a5c-4bab-800b-668f90a645a1
                 stepCounter: 5e84e096-9cea-4ca5-8841-b516c65609e2
-            transform: ""
+            transform: UPPER("STG_CUSTOMER4"."C_NAME")
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 2fc52373-3d6e-4b0d-a948-bf8b34b7256a
